@@ -1,7 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-public class Monster : MonoBehaviour
+public class Monster : StageManager
 {
 
     // 길에 대한 기본 설정
@@ -12,7 +12,12 @@ public class Monster : MonoBehaviour
    
 
     // 스테이지 전체 몬스터 길
-    public Vector3[][] pathval;
+    public Vector3[][] pathval = new Vector3[][] {
+
+            new Vector3[] { new Vector3(9, 0, 0) },
+            new Vector3[] { new Vector3(8, 6, 3) }
+
+    };
 
     // 이 밑에는 전부 몬스터 관련
 
@@ -37,9 +42,6 @@ public class Monster : MonoBehaviour
     public int monsterWayJ;
 
 
-
-
-
     // 발사체 관련
     public Transform target;
 
@@ -49,16 +51,12 @@ public class Monster : MonoBehaviour
 
     private void Awake()
     {
-            pathval = new Vector3[][] {
-            new Vector3[] { new Vector3(9, 0, 0) },
-            new Vector3[] { new Vector3(8, 6, 3) }
-            };
+        nPathval = pathval[monsterWayI];
+
+        if (monsterWayI == 1) {
+            
+        }
     }
-
-
-
-
-
 }
 
 
