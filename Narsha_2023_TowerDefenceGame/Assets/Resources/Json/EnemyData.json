@@ -1,0 +1,148 @@
+{
+    "Enemy": [
+        {
+            "tag": "Goblin",
+            "spped": 1,
+            "health" : 35,
+            "changImg": "Img/aprnald/goblin",
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z" : 3
+            }
+        },
+        {
+            "tag": "slime",
+            "health": 15,
+            "spped": 1,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "changImg": "Img/aprnald/slime"
+        },
+        {
+            "tag": "도적고블린",
+            "health": 25,
+            "spped": 2,
+            "fireTime": 2,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "changImg": "Img/aprnald/robberGoblin"
+        },
+        {
+            "tag": "임프",
+            "health": 15,
+            "fireTime": 2,
+            "fireRange": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "speed": 2,
+            "chanImg": "Img/aprnald/imp"
+        },
+        {
+            "tag": "오크",
+            "health": 40,
+            "fireTime": 2,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/ork"
+        },
+        {
+            "tag": "골렘",
+            "health": 45,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/golem"
+        },
+        {
+            "tag": "거미",
+            "health": 30,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/spider"
+        },
+        {
+            "tag": "악마",
+            "health": 40,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/devil"
+        },
+        {
+            "tag": "팬텀 나이트",
+            "health": 40,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/phantomKnght"
+        },
+        {
+            "tag": "킹 슬라임",
+            "health": 100,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/kingSlime"
+        },
+        {
+            "tag": "오크 족장",
+            "health": 120,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/orkChief"
+        },
+        {
+            "tag": "팬텀 킹",
+            "health": 120,
+            "fireTime": 1,
+            "fireRange": {
+                "x": 3,
+                "y": 3,
+                "z": 3
+            },
+            "speed": 1,
+            "chanImg": "Img/aprnald/pantomKing"
+        }
+    ]
+}
