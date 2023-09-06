@@ -95,8 +95,9 @@ public class Tuttey : MonoBehaviour
         GameObject bulletGo =  (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGo.GetComponent<Bullet>();
 
-        if (bullet != null)
-            bullet.Seek(target);
+        Debug.Log("여기 알아서 풀고 버그 수정해");
+        //if (bullet != null)
+        //    bullet.Seek(target);
     }
 
     void UpdateTarget()
