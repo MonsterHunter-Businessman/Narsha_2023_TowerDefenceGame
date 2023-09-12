@@ -76,7 +76,7 @@
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Script\Treemeew\Touch_to_Start.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\FadeScript.cs" />
-    <Compile Include="Assets\Script\JsonParser.cs" />
+    <Compile Include="Assets\Script\Ksi\JsonParser.cs" />
     <Compile Include="Assets\Script\Treemeew\deck.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\Trigger.cs" />
     <Compile Include="Assets\Script\aprnald\GameDateManager.cs" />
