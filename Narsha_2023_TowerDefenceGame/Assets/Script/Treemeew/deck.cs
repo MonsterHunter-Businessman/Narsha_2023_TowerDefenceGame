@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class deck : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+public class Deck
+{
+    public string cardName;
+    public string cardDescription;
+    public Sprite cardSprite;
+    public int cardDamage;
 }

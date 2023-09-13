@@ -24,14 +24,11 @@ public class Cards : MonoBehaviour
     public static int CardDmg;
     public string CardNametxt;
     public string CardInfo;
-    Button Button;
     public GameObject CardImage;
-    public int[] hasCard; // 수정된 부분: 배열을 bool 타입으로 변경
 
     private void Start()
     {
-        hasCard = new int[System.Enum.GetValues(typeof(TowerCards)).Length];
-        CardIndex = 1;
+
     }
 
     void Update()
