@@ -8,7 +8,7 @@ public class Card : MonoBehaviour
     private string cardName;
     private string cardDescription;
     private Sprite cardSprite;
-
+    Deck cardDeck;
     private string CardDescription
     {
         get { return cardDescription; }
@@ -30,15 +30,23 @@ public class Card : MonoBehaviour
 
         set { cardDamage = value; }
     }
-    // Start is called before the first frame update
+ 
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Card card = collision.gameObject.GetComponent<Card>();
+        cardDeck.deck.Add(card);
+        Debug.Log(cardDeck.deck);
     }
 }
