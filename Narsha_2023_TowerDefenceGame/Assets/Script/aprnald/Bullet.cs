@@ -14,6 +14,8 @@ public class Bullet : MonoBehaviour
     [HideInInspector]
     public float deamge;
 
+    
+
 }
 
 
