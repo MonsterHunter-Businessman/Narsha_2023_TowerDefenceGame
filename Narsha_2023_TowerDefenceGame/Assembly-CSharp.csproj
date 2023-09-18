@@ -66,12 +66,14 @@
     <Compile Include="Assets\Script\Treemeew\BtnManager.cs" />
     <Compile Include="Assets\Script\aprnald\Stage.cs" />
     <Compile Include="Assets\Script\aprnald\StageManager.cs" />
+    <Compile Include="Assets\Script\Treemeew\Card.cs" />
     <Compile Include="Assets\Script\Ksi\MainMenu.cs" />
     <Compile Include="Assets\Assets\Treemeew\JSON\JSONObject.cs" />
     <Compile Include="Assets\Assets\Treemeew\JSON\VectorTemplates.cs" />
     <Compile Include="Assets\Script\Ha\Bullet.cs" />
     <Compile Include="Assets\Script\Ha\Button.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Script\Treemeew\PlayerInfo.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Script\Treemeew\Touch_to_Start.cs" />
     <Compile Include="Assets\Script\Treemeew\DragAndDrop.cs" />
@@ -84,8 +86,6 @@
     <Compile Include="Assets\Script\Treemeew\GameDataManager.cs" />
     <Compile Include="Assets\Script\Treemeew\Cards.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\MenuButtons.cs" />
-    <Compile Include="Assets\Script\Treemeew\PlayerInfo.cs" />
-    <Compile Include="Assets\Script\Treemeew\Card.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
