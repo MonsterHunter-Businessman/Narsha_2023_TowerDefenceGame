@@ -36,14 +36,14 @@ public class JsonDataManager : MonoBehaviour
         public string Name; //타워 이름
         public string Description;
         public int Damage;
-        public string Splite;
-
-        public Card(string Name, string Description, int Damage, string Sprite)
+        public string SpritePath;
+        
+        public Card(string Name, string Description, int Damage, string SpritePath)
         {
             this.Name = Name;
             this.Description = Description;
             this.Damage = Damage;
-            this.Splite = Sprite;
+            this.SpritePath = SpritePath;
         }
     }
 
