@@ -31,6 +31,6 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler,IBeginDragHandler,
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("dd");
+        Debug.Log("Point has been down");
     }
 }

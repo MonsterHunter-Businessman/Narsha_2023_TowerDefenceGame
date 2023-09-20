@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class ItemSlot : MonoBehaviour,IDropHandler
 {
+    Card card;
+    Deck decK;
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("ondrop");
@@ -16,7 +18,6 @@ public class ItemSlot : MonoBehaviour,IDropHandler
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame

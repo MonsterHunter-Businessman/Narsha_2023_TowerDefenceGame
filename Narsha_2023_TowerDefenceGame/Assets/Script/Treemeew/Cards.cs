@@ -19,7 +19,7 @@ public class Cards : MonoBehaviour
 {
     public int CardIndex;
     public TextMeshProUGUI Cardname;
-    public TextMeshProUGUI Carddescription;
+    public TextMeshProUGUI CardDescriptionTxt;
     public TowerCards TowerCard;
     public static int CardDmg;
     public string CardNametxt;
@@ -35,7 +35,7 @@ public class Cards : MonoBehaviour
     {    
         mercenaryType();
         Cardname.text = CardNametxt;
-        Carddescription.text = CardInfo;
+        CardDescriptionTxt.text = CardInfo;
     }
     public void mercenaryType()
     {
