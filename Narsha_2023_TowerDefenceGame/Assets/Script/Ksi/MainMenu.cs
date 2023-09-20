@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
 
     public TMP_InputField playerNameInput;
 
-    private int spriteIndex = 0;
+    public int spriteIndex = 0;
 
     public TMP_Text tmp;
 

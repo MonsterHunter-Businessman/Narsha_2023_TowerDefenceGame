@@ -3,146 +3,110 @@
         {
             "tag": "Goblin",
             "spped": 1,
-            "health" : 35,
-            "changImg": "Img/aprnald/goblin",
+            "health": 35,
+            "changImg": "Amimations/CTL/Control/Goblin",
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z" : 3
-            }
+            "fireRange": 3,
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "slime",
             "health": 15,
             "spped": 1,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
-            "changImg": "Img/aprnald/slime"
+            "fireRange": 3,
+            "changImg": "Amimations/CTL/Control/Slime",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "도적고블린",
             "health": 25,
             "spped": 2,
             "fireTime": 2,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
-            "changImg": "Img/aprnald/robberGoblin"
+            "fireRange": 3,
+            "changImg": "Amimations/CTL/Control/RobberGoblin",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "임프",
             "health": 15,
             "fireTime": 2,
-            "fireRange": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-            },
+            "fireRange": 3,
             "speed": 2,
-            "chanImg": "Img/aprnald/imp"
+            "chanImg": "Amimations/CTL/Control/Imp",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "오크",
             "health": 40,
             "fireTime": 2,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/ork"
+            "chanImg": "Amimations/CTL/Control/Ork",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "골렘",
             "health": 45,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/golem"
+            "chanImg": "Amimations/CTL/Control/Golem",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "거미",
             "health": 30,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/spider"
+            "chanImg": "Amimations/CTL/Control/Spider",
+            "bullet": "Img/prefab/aprnald/SpiderAttack"
         },
         {
             "tag": "악마",
             "health": 40,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/devil"
+            "chanImg": "Amimations/CTL/Control/Devil",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "팬텀 나이트",
             "health": 40,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/phantomKnght"
+            "chanImg": "Amimations/CTL/Control/PhantomKnght",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "킹 슬라임",
             "health": 100,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/kingSlime"
+            "chanImg": "Amimations/CTL/Control/KingSlime",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "오크 족장",
             "health": 120,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/orkChief"
+            "chanImg": "Amimations/CTL/Control/OrkChief",
+            "bullet": "Img/prefab/aprnald/Null"
         },
         {
             "tag": "팬텀 킹",
             "health": 120,
             "fireTime": 1,
-            "fireRange": {
-                "x": 3,
-                "y": 3,
-                "z": 3
-            },
+            "fireRange": 3,
             "speed": 1,
-            "chanImg": "Img/aprnald/pantomKing"
+            "chanImg": "Amimations/CTL/Control/PantomKing",
+            "bullet": "Img/prefab/aprnald/Null"
         }
     ]
 }
