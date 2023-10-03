@@ -4,20 +4,20 @@ using System.Xml.Serialization;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class SpawnManager : Stage
 {
     // Siongletone example
-    public static GameManager instance = null;
+    public static SpawnManager instance = null;
 
     private GameObject monsterSpawn;
 
-    private GameObject monsterPrefab;
+    public GameObject[] monsterPrefab;
 
     private GameObject monsterClone;
 
     private Vector3[][] stageMonsterSpawn;
 
-    private MonsterManager monsterManager;
+    private Monster Monster;
 
     private int nowStage;
 
@@ -29,22 +29,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-        {
+        if (instance == null) {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
+        } else {
             Destroy(gameObject);
         }
 
         nowStage = 0;
 
         cheack = true;
-
-        monsterPrefab = Resources.Load<GameObject>("Prefab/aprnald/Monster");
-
     }
 
     private void Start()
@@ -67,13 +61,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // ¿Í ¤µ¤² Áö±Ý »ý°¢ÇØµµ ÁÁÀº ¾Ë°í¸®Áò ÀÌ´Ù.
-
-    /// <summary>
-    /// ½ºÅ×ÀÌÁö¿¡ µû¶ó ¸ó½ºÅÍ ½ºÆù ¹æ½ÄÀÌ¶óµçÁö ¾î¶² ¸ó½ºÅÍ¸¦ ¼ÒÈ¯ÇÏ´ÂÁö °áÁ¤ÇÏ´Â °÷...
-    /// yield returnÀ¸·Î ¸îÃÊµÚ¿¡ »ý¼±µÇ´ÂÁö °áÁ¤
-    /// </summary>
-    /// <returns></returns>
     private IEnumerator SpawnMonster()
     {
 
@@ -86,25 +73,28 @@ public class GameManager : MonoBehaviour
 
     }
 
-
-    /// <summary>
-    /// ¸ó½ºÅÍ ½ºÆùÀ» °£ÆíÇÏ°Ô ¸¸µé±â À§ÇÏ¸é ÇÔ¼ö
-    /// </summary>
-    /// <param name="spawnLocation">°¢ ½ºÅ×ÀÌÁö¸¶´Ù ¸ó½ºÅÍ ½ºÆù À§Ä¡ ÁöÁ¤</param>
-    /// <param name="monsterType">¾î¶² ¸ó½ºÅÍ¸¦ ¼ÒÈ¯ÇÒÁö ¼±ÅÃÇÏ´Â º¯¼ö</param>
     private void MonsterSpawn(int spawnLocation, int monsterType)
     {
         monsterSpawn.transform.position = stageMonsterSpawn[nowStage][spawnLocation];
 
-        monsterClone = Instantiate(monsterPrefab, monsterSpawn.transform);
+        monsterClone = Instantiate(monsterPrefab[monsterType], monsterSpawn.transform);
 
-        monsterManager = monsterClone.GetComponent<MonsterManager>();
+        monsterClone.GetComponent<Monster>().Move();
 
-        monsterManager.monsterWayJ = spawnLocation;
+        
 
-        monsterManager.monsterType = monsterType;
 
-        monsterManager.monsterWayStage = nowStage;
+
+        // if (nowStage == 0) {
+        //     goblin.Path = oneStage[spawnLocation];
+        // } else if (nowStage == 1) {
+        //     goblin.Path = twoStage[spawnLocation];
+        // } else if (nowStage == 2) {
+        //     goblin.Path = threeStage[spawnLocation];
+        // } else {
+        //     Debug.Log("null Stage");
+        // }
+
     }
 
 }
@@ -125,10 +115,10 @@ public class GameManager : MonoBehaviour
 
 //Vector3[] st2 = { new Vector3 { x = 9, y = 0, z = 0 }, new Vector3 { x = 3, y = 0, z = 0 }, new Vector3 { x = 3, y = -1, z = 0 }, new Vector3 { x = 1, y = -1, z = 0 }, new Vector3 { x = 1, y = 0, z = 0 }, new Vector3 { x = -2, y = 0, z = 0 } };
 
-//public float spawnInterval = 2f; // º¹Á¦ °£°Ý (ÃÊ)
-//public int spawnCount = 5;       // º¹Á¦ÇÒ È½¼ö
+//public float spawnInterval = 2f; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½)
+//public int spawnCount = 5;       // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È½ï¿½ï¿½
 
-//private int spawnCounter;        // ÇöÀç º¹Á¦ÇÑ È½¼ö
+//private int spawnCounter;        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È½ï¿½ï¿½
 
 //void Start()
 //{

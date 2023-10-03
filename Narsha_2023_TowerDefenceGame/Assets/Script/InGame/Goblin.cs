@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Goblin : Monster
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int CoordinateX;
 
-    // Update is called once per frame
-    void Update()
+    public int nowStage;
+
+    public Vector3[] Path;
+
+
+    private void FixedUpdate() 
     {
-        
+         
     }
 }

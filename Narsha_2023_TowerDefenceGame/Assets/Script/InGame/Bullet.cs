@@ -7,11 +7,7 @@ public class Bullet : MonoBehaviour
 
     [HideInInspector]
     public Transform target;
-
-    [HideInInspector]
     public float speed;
-
-    [HideInInspector]
     public float deamge;
 
     
