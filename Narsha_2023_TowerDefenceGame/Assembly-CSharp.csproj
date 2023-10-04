@@ -75,6 +75,7 @@
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Script\Treemeew\PlayerInfo.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Script\Treemeew\DeckManager.cs" />
     <Compile Include="Assets\Script\Treemeew\Touch_to_Start.cs" />
     <Compile Include="Assets\Script\Treemeew\DragAndDrop.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\FadeScript.cs" />

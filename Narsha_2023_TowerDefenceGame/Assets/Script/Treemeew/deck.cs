@@ -1,14 +1,12 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
 
-public class Deck
+public class Deck:MonoBehaviour 
 {
     public string cardName;
     public string cardDescription;
-    public Sprite cardSprite;
+    public string cardSprite;
     public int cardDamage;
 
-    public List<Card> deck;
+
 }

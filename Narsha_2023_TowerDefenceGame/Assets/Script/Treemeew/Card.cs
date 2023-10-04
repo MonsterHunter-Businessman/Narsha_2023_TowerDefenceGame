@@ -34,7 +34,7 @@ public class Card : MonoBehaviour
 
     void Start()
     {
-        
+        cardDeck = GetComponent<Deck>();
     }
 
 
@@ -45,12 +45,12 @@ public class Card : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("OnCollisionEnter2D");
         Card card = collision.gameObject.GetComponent<Card>();
         if (collision.gameObject.CompareTag("Slot"))
         {
+            DeckManager.Instance.LoadCardInfo(4);
             Debug.Log("dd");
-            cardDeck.deck.Add(card);
-            Debug.Log(cardDeck.deck[1]);
         }
     }
 }
