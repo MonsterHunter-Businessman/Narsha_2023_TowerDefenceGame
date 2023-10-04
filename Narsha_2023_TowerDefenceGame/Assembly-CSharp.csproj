@@ -79,7 +79,7 @@
     <Compile Include="Assets\Script\Treemeew\Touch_to_Start.cs" />
     <Compile Include="Assets\Script\Treemeew\DragAndDrop.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\FadeScript.cs" />
-    <Compile Include="Assets\Script\Treemeew\Deck.cs" />
+    <Compile Include="Assets\Script\Treemeew\deck.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\Trigger.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\CollectableBounce.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\Door.cs" />
