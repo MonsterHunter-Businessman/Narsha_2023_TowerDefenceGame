@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 728738585467447483}
   - component: {fileID: -9114183779619770211}
   - component: {fileID: 2633905303974183613}
+  - component: {fileID: -685136089770906570}
   m_Layer: 0
   m_Name: GoblinAttack
   m_TagString: Untagged
@@ -123,3 +124,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-685136089770906570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403197679206549657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539138d1e88a137469c9b7212daa5725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 5
+  deamge: 10

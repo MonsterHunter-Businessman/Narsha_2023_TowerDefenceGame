@@ -1,7 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Serialization;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class SpawnManager : Stage
@@ -10,22 +8,15 @@ public class SpawnManager : Stage
     public static SpawnManager instance = null;
 
     private GameObject monsterSpawn;
-
-    public GameObject[] monsterPrefab;
+    public List<GameObject> monsterPrefab = new List<GameObject>();
 
     private GameObject monsterClone;
 
-    private Vector3[][] stageMonsterSpawn;
-
-    private Monster Monster;
+    private List<List<Vector3>> stageMonsterSpawn = new List<List<Vector3>>();
 
     private int nowStage;
 
     private bool cheack;
-
-    //Example
-    public float monsterHp;
-    public int currentStageNo;
 
     private void Awake()
     {
@@ -43,8 +34,8 @@ public class SpawnManager : Stage
 
     private void Start()
     {
-        stageMonsterSpawn = new Vector3[][] { 
-            new Vector3[] {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(9, -2, 0)} 
+        stageMonsterSpawn = new List<List<Vector3>> { 
+            new List<Vector3> {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(9, -2, 0)} 
         };
     }
 
@@ -68,96 +59,29 @@ public class SpawnManager : Stage
 
             yield return new WaitForSeconds(3f);
 
-            MonsterSpawn(1, 0);
-        }
+            MonsterSpawn(1, 0, 12);
 
+
+        }
     }
 
-    private void MonsterSpawn(int spawnLocation, int monsterType)
+/// <summary>
+/// 
+/// </summary>
+/// <param name="spawnLocation">어디서 소환되는지 선택 ( stageMonsterSpawn 참고 ) </param>
+/// <param name="monsterType">몬스터 타입 결정 0 : 고블린 </param>
+/// <param name="street">몬스터가 이동하는 거리 ( 정확해야됨 중요 움직이는 거리 ) </param>
+    private void MonsterSpawn(int spawnLocation, int monsterType, float street)
     {
         monsterSpawn.transform.position = stageMonsterSpawn[nowStage][spawnLocation];
 
-        monsterClone = Instantiate(monsterPrefab[monsterType], monsterSpawn.transform);
+        monsterClone = Instantiate(monsterPrefab[monsterType]);
 
-        monsterClone.GetComponent<Monster>().Move();
+        monsterClone.transform.position = monsterSpawn.transform.position;
 
-        
+        monsterClone.GetComponent<Monster>().Distance = street;
 
-
-
-        // if (nowStage == 0) {
-        //     goblin.Path = oneStage[spawnLocation];
-        // } else if (nowStage == 1) {
-        //     goblin.Path = twoStage[spawnLocation];
-        // } else if (nowStage == 2) {
-        //     goblin.Path = threeStage[spawnLocation];
-        // } else {
-        //     Debug.Log("null Stage");
-        // }
+        monsterClone.GetComponent<Monster>().Move(InGameStage[nowStage][spawnLocation].ToArray());
 
     }
-
 }
-
-//public GameObject goblin;
-
-//public Transform mS;
-
-//public int stage;
-
-//public GameObject monsterB;
-
-//public GameObject parent;
-
-//public int[] stageMonster = new int[] { 5, 7, 9, 10 };
-
-//Vector3[] st1 = { new Vector3 { x = 7, y = 0, z = 0 }, new Vector3 { x = 0, y = 0, z = 0 }, new Vector3 { x = -7, y = 0, z = 0 } };
-
-//Vector3[] st2 = { new Vector3 { x = 9, y = 0, z = 0 }, new Vector3 { x = 3, y = 0, z = 0 }, new Vector3 { x = 3, y = -1, z = 0 }, new Vector3 { x = 1, y = -1, z = 0 }, new Vector3 { x = 1, y = 0, z = 0 }, new Vector3 { x = -2, y = 0, z = 0 } };
-
-//public float spawnInterval = 2f; // ���� ���� (��)
-//public int spawnCount = 5;       // ������ Ƚ��
-
-//private int spawnCounter;        // ���� ������ Ƚ��
-
-//void Start()
-//{
-//    StartCoroutine(SpawnGoblins());
-//}
-
-//private IEnumerator SpawnGoblins()
-//{
-
-//    if (stage == 1)
-//    {
-//        while (spawnCounter < 5)
-//        {
-//            monsterB = Instantiate(goblin, mS.transform);
-
-//            monsterB.transform.parent = parent.transform;
-
-//            monsterB.GetComponent<Monster>().pathval = new Vector3[2];
-//            monsterB.GetComponent<Monster>().pathval = st1;
-
-//            spawnCounter++;
-
-//            yield return new WaitForSeconds(spawnInterval);
-//        }
-//    }
-//    else if (stage == 2)
-//    {
-//        while (spawnCounter < 7)
-//        {
-//            monsterB = Instantiate(goblin, mS.transform);
-
-//            monsterB.transform.parent = parent.transform;
-
-//            monsterB.GetComponent<Monster>().pathval = new Vector3[6];
-//            monsterB.GetComponent<Monster>().pathval = st2;
-
-//            spawnCounter++;
-
-//            yield return new WaitForSeconds(spawnInterval);
-//        }
-//    }
-//}

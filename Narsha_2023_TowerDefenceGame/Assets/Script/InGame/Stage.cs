@@ -1,24 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class Stage : MonoBehaviour
 {
     [HideInInspector]
-    public Vector3[][] oneStage = new Vector3[][] {
-            new Vector3 [] { new Vector3 (9, 2, 0), new Vector3 (3, 2, 0), new Vector3 (3, 1, 0), new Vector3 (1, 1, 0), new Vector3 (1, 0, 0), new Vector3 (-2, 0, 0)},
-            new Vector3 [] { new Vector3 (9, 0, 0), new Vector3 (3, 0, 0), new Vector3 (3, 1, 0), new Vector3 (1, 1, 0), new Vector3 (1, 0, 0), new Vector3 (-2, 0, 0)},
-            new Vector3 [] { new Vector3 (9, -2, 0), new Vector3 (3, -2, 0), new Vector3 (3, -1, 0), new Vector3 (1, -1, 0), new Vector3 (1, 0, 0), new Vector3 (-2, 0, 0)}
+    public List<List<List<Vector3>>> InGameStage = new List<List<List<Vector3>>> {
+        new List<List<Vector3>> { new List<Vector3> { new Vector3 (3, 2, 0), new Vector3 (3, 1, 0), new Vector3 (1, 1, 0), new Vector3 (1, 0, 0), new Vector3 (-2, 0, 0)}, 
+                                  new List<Vector3> { new Vector3 (3, 0, 0), new Vector3 (3, 1, 0), new Vector3 (1, 1, 0), new Vector3 (1, 0, 0), new Vector3 (-2, 0, 0)}, 
+                                  new List<Vector3> { new Vector3 (3, -2, 0), new Vector3 (3, -1, 0), new Vector3 (1, -1, 0), new Vector3 (1, 0, 0), new Vector3 (-2, 0, 0)}}
     };
 
-    [HideInInspector]
-    public Vector3[][] twoStage = new Vector3[][] {
 
-    };
-
-    [HideInInspector]
-    public Vector3[][] threeStage = new Vector3[][] {
-
-    };
 }
-    
