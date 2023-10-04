@@ -44,6 +44,7 @@ public class MainMenu : MonoBehaviour
 
     public void GotoDeck()
     {
+        Debug.Log(JsonDataManager.instance.Slime.tag);
         Debug.Log("GotoDeck");
         //SceneManager.LoadScene("Deck");
     }
@@ -64,6 +65,7 @@ public class MainMenu : MonoBehaviour
     {
         playerNameInput.GetComponent<TMP_InputField>().text = "";
     }
+
 
     // Start is called before the first frame update
     void Start()

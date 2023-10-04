@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 447146606}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: ChangeCharacter
         m_Mode: 5
@@ -714,6 +714,7 @@ GameObject:
   - component: {fileID: 447146604}
   - component: {fileID: 447146603}
   - component: {fileID: 447146602}
+  - component: {fileID: 447146606}
   m_Layer: 5
   m_Name: MainMenu_Canvas
   m_TagString: Untagged
@@ -809,6 +810,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &447146606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447146601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6187d1171e1d60b4c903a9264e3b8bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userLv: 1
+  userExp: 0
+  UserLv: {fileID: 1802621705}
+  TestImage: {fileID: 1975419608}
+  TestSprite:
+  - {fileID: 21300000, guid: c57e03df55cbb2947a66a169997cf940, type: 3}
+  - {fileID: 21300000, guid: 2865a3ca6d7d6034e837cdbad9ae584c, type: 3}
+  - {fileID: 21300000, guid: 6adc99212d3f67b4c8d854f9d5d9ec43, type: 3}
+  ExpText: {fileID: 126238443}
+  testText:
+  - abcdefghijklmnop
+  - qrstuv
+  - wxyz
+  playerNameInput: {fileID: 1445309175}
+  spriteIndex: 0
+  tmp: {fileID: 848752636}
 --- !u!1 &551634872
 GameObject:
   m_ObjectHideFlags: 0
@@ -904,7 +933,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 447146606}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: ChangeUserName
         m_Mode: 1
@@ -1102,7 +1131,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 447146606}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: CancleChangeName
         m_Mode: 1
@@ -1329,7 +1358,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 447146606}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: ChangeCharacter
         m_Mode: 5
@@ -1616,7 +1645,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 903060370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c1d9e58f6dd25c4ca1813f35fdbefeb, type: 3}
+  m_Script: {fileID: 11500000, guid: 947c4e9926cffe14c9d24fa1ad5ea2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &903060372
@@ -2308,13 +2337,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 447146601}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 447146606}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ChangeUserName
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2453,7 +2482,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 447146606}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: GotoDeck
         m_Mode: 1
@@ -2733,7 +2762,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 447146606}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: CancleChangeName
         m_Mode: 1

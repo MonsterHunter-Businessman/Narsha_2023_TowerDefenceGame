@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class JsonDataManager : MonoBehaviour
 {
-    private static JsonDataManager instance = null;
+    public static JsonDataManager instance = null;
 
     [Serializable]
     public struct Enemy
@@ -70,15 +70,15 @@ public class JsonDataManager : MonoBehaviour
         public string Id; //유저 id
         public string Pwd; //유저 비밀번호
         public string Name; //유저 닉네임
-        public string Info; //유저 자기소개
+        public int UserLV;
 
 
-        public UserInfo(string Id, string Pwd, string Name, string Info)
+        public UserInfo(string Id, string Pwd, string Name, int UserLV)
         {
             this.Id = Id;
             this.Pwd = Pwd;
             this.Name = Name;
-            this.Info = Info;
+            this.UserLV = UserLV;
         }
 
     }
@@ -108,7 +108,21 @@ public class JsonDataManager : MonoBehaviour
     public EnemyDatas enemyData;
     public CardDatas cardData;
     public SupportDatas supportData;
-    public UserInfos userInfos;
+    public UserInfos userInfo;
+
+    public Enemy Goblin;
+    public Enemy Slime;
+    public Enemy RobberGoblin;
+    public Enemy Imp;
+    public Enemy Ork;
+    public Enemy Golem;
+    public Enemy Spider;
+    public Enemy Devil;
+    public Enemy PhantomKnight;
+    public Enemy KingSlime;
+    public Enemy OrkChief;
+    public Enemy KingPhantom;
+
 
 
     // Start is called before the first frame update
@@ -143,26 +157,48 @@ public class JsonDataManager : MonoBehaviour
 
         Debug.Log("json pasing - Enemy(Goblin) : " + enemy.tag);*/
 
+       /* TextAsset textAsset = Resources.Load<TextAsset>("Json/EnemyData");
+        enemyData = JsonUtility.FromJson<EnemyDatas>(textAsset.text);
+
+        textAsset = Resources.Load<TextAsset>("Json/CardData");
+        cardData = JsonUtility.FromJson<CardDatas>(textAsset.text);
+
+        textAsset = Resources.Load<TextAsset>("Json/SupportData");
+        supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);
+
+        textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
+        userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
+*/
+
 
     }
 
     public void Start()
     {
         TextAsset textAsset = Resources.Load<TextAsset>("Json/EnemyData");
-        Debug.Log(textAsset);
         enemyData = JsonUtility.FromJson<EnemyDatas>(textAsset.text);
-        Debug.Log(enemyData.Enemy);
-        Enemy enemy = MonsterParsing("Goblin");
-
-        Debug.Log("json pasing - Enemy(Goblin) : " + enemy.tag);
 
         textAsset = Resources.Load<TextAsset>("Json/CardData");
-        Debug.Log(textAsset);
         cardData = JsonUtility.FromJson<CardDatas>(textAsset.text);
-        Debug.Log(cardData.Card);
-        Card card = CardParsing("창병");
 
-        Debug.Log("json pasing - Card(창병) : " + card.Name);
+        textAsset = Resources.Load<TextAsset>("Json/SupportData");
+        supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);
+
+        textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
+        userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
+
+        Goblin = MonsterParsing("goblin");
+        Slime = MonsterParsing("slime");
+        RobberGoblin = MonsterParsing("robberGoblin");
+        Imp = MonsterParsing("imp");
+        Ork = MonsterParsing("ork");
+        Golem = MonsterParsing("golem");
+        Spider = MonsterParsing("spider");
+        Devil = MonsterParsing("devil");
+        PhantomKnight = MonsterParsing("phantomKnight");
+        KingSlime = MonsterParsing("kingSlime");
+        OrkChief = MonsterParsing("orkChief");
+        KingPhantom = MonsterParsing("kingPhantom");
     }
 
     public Enemy MonsterParsing(string tag)
@@ -208,8 +244,8 @@ public class JsonDataManager : MonoBehaviour
     }
     public UserInfo UserParsing(string id)
     {
-        UserInfo user1 = new UserInfo("", "", "", "");
-        foreach (UserInfo user in userInfos.UserInfo)
+        UserInfo user1 = new UserInfo("", "", "", 0);
+        foreach (UserInfo user in userInfo.UserInfo)
         {
 
             if (user.Id == id)
