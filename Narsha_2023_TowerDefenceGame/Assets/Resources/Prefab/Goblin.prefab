@@ -122,8 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  aClone: {fileID: 0}
-  bul: {fileID: 0}
   Distance: 0
   MonsterType: 0
   Speed: 10
@@ -131,7 +129,6 @@ MonoBehaviour:
   FireTime: 3
   Deamge: 5
   FireRange: {x: 3, y: 3, z: 3}
-  Bullet: {fileID: 5403197679206549657, guid: 74755f8cf6ed634418ece774ca2c7dec, type: 3}
 --- !u!50 &7489922091122609952
 Rigidbody2D:
   serializedVersion: 4
@@ -177,5 +174,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1666666, y: 1.1666666}
+  m_Size: {x: 0.8, y: 0.8}
   m_EdgeRadius: 0

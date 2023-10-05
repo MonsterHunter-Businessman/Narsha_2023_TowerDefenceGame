@@ -5,6 +5,8 @@ public abstract class Player : MonoBehaviour
 {
     protected abstract void Attack();
 
+    Animator animator;
+
     private Vector2 StartPostion;
 
     private Vector2 targetPostion;
@@ -14,6 +16,8 @@ public abstract class Player : MonoBehaviour
     private BoxCollider2D boxCollider2D;
 
     private bool Draw;
+
+    private float fTickTime;
     
 
 
@@ -25,20 +29,21 @@ public abstract class Player : MonoBehaviour
 
     public float FireTime;
 
-    private float fTickTime;
-
     public Transform target;
 
     
 
     private void Start() 
     {
-
         Draw = false;
+
+        animator = this.gameObject.GetComponent<Animator>();
 
         StartPostion = this.gameObject.transform.position;
 
         boxCollider2D = this.gameObject.GetComponent<BoxCollider2D>();
+
+        fTickTime = FireTime;
 
     }
 
@@ -68,8 +73,9 @@ public abstract class Player : MonoBehaviour
             }
         }
 
-        if (nearbyObject != null && closeDistance <= FireRange.x) {
+        if (nearbyObject != null && Mathf.Abs(closeDistance) <= FireRange.x) {
             if (fTickTime >= FireTime) {
+                animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
                 Attack();
                 fTickTime = 0f;
@@ -77,6 +83,7 @@ public abstract class Player : MonoBehaviour
                 fTickTime += Time.fixedDeltaTime;
             }
         } else {
+            animator.SetBool("Attack", false);
             target = null;
         }
     }
@@ -88,7 +95,7 @@ public abstract class Player : MonoBehaviour
 
         boxCollider2D.offset = new Vector2(0.2f, 0f);
 
-        boxCollider2D.size = new Vector2(5f, 8f);
+        boxCollider2D.size = new Vector2(5f, 5f);
 
         gameObject.transform.position = new Vector2(mPosition.x, mPosition.y);
     }

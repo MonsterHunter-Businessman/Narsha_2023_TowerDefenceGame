@@ -6,6 +6,6 @@ public class Knight : Player
 {
     protected override void Attack() 
     {
-        target.GetComponent<Player>().Hp -= Deamge;
+        target.GetComponent<Monster>().Hp -= Deamge;
     }
 }

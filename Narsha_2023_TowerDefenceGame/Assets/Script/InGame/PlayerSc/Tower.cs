@@ -7,7 +7,7 @@ public class Tower : MonoBehaviour
 
     public int monsterType;
 
-    private int towerHp = 100;
+    private int towerHp = 20;
 
     private void OnTriggerEnter2D(Collider2D other) 
     {

@@ -1,5 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
+using System;
 
 public abstract class Monster : Stage
 {
@@ -11,7 +12,7 @@ public abstract class Monster : Stage
 
     private float fTickTime= 2f;
 
-    public float Distance;
+    [HideInInspector] public float Distance;
 
 
 
@@ -27,7 +28,10 @@ public abstract class Monster : Stage
 
     public Vector3 FireRange;
 
-    public GameObject Bullet;
+    public void Start() 
+    {
+        fTickTime = FireTime;
+    }
 
     public void Move(Vector3[] Path)
     {
@@ -38,7 +42,7 @@ public abstract class Monster : Stage
     public void FixedUpdate() 
     {
 
-        if (Hp == 0) {
+        if (Hp <= 0) {
             Destroy(this.gameObject);
         }
 
@@ -66,7 +70,7 @@ public abstract class Monster : Stage
             }
         }
 
-        if (nearbyObject != null && closeDistance <= FireRange.x) {
+        if (nearbyObject != null && Mathf.Abs(closeDistance) <= FireRange.x) {
             if (fTickTime >= FireTime) {
                 target = nearbyObject.transform;
                 Attack();

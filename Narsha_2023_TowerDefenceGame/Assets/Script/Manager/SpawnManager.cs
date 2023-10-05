@@ -61,6 +61,18 @@ public class SpawnManager : Stage
 
             MonsterSpawn(1, 0, 12);
 
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(0, 0, 12);
+
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(2, 0, 12);
+
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(2, 0, 12);
+
 
         }
     }
