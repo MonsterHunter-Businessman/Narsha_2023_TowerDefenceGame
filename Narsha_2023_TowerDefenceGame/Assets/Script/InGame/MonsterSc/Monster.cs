@@ -35,7 +35,7 @@ public abstract class Monster : Stage
 
     public void Move(Vector3[] Path)
     {
-        this.transform.DOPath(Path, getDirections(), PathType.Linear, PathMode.Ignore, 10, red)
+        this.transform.DOPath(Path, getDirections(), PathType.Linear, PathMode.Ignore, 10, new Color(0f, 0f, 0f, 0f))
             .SetEase(Ease.Linear);
     }
 
@@ -43,6 +43,7 @@ public abstract class Monster : Stage
     {
 
         if (Hp <= 0) {
+            GameObject.Find("GameManager").GetComponent<SpawnManager>().monsterNum -= 1;
             Destroy(this.gameObject);
         }
 
@@ -52,6 +53,7 @@ public abstract class Monster : Stage
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.CompareTag("Player_Spawn")) {
+            GameObject.Find("GameManager").GetComponent<SpawnManager>().monsterNum -= 1;
             Destroy(this.gameObject);
         }
     }
@@ -70,7 +72,7 @@ public abstract class Monster : Stage
             }
         }
 
-        if (nearbyObject != null && Mathf.Abs(closeDistance) <= FireRange.x) {
+        if (nearbyObject != null && closeDistance <= FireRange.x) {
             if (fTickTime >= FireTime) {
                 target = nearbyObject.transform;
                 Attack();
