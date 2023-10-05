@@ -82,6 +82,8 @@
     <Compile Include="Assets\Script\Treemeew\GameDataManager.cs" />
     <Compile Include="Assets\Script\Treemeew\Cards.cs" />
     <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\MenuButtons.cs" />
+    <Compile Include="Assets\Script\CTL\SoundManager.cs" />
+    <Compile Include="Assets\Script\CTL\SoundTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -56,6 +56,8 @@ public class Monster : StageManager
         if (monsterWayI == 1) {
             
         }
+       
+
     }
 }
 
