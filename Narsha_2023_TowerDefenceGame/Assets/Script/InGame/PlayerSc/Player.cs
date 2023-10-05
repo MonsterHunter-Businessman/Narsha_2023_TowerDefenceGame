@@ -43,6 +43,8 @@ public abstract class Player : MonoBehaviour
 
         boxCollider2D = this.gameObject.GetComponent<BoxCollider2D>();
 
+        FireRange = FireRange + new Vector3(-0.6f, -0.6f, -0.6f);
+
         fTickTime = FireTime;
 
     }
@@ -73,7 +75,7 @@ public abstract class Player : MonoBehaviour
             }
         }
 
-        if (nearbyObject != null && Mathf.Abs(closeDistance) <= FireRange.x) {
+        if (nearbyObject != null && closeDistance <= FireRange.x) {
             if (fTickTime >= FireTime) {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
@@ -116,8 +118,8 @@ public abstract class Player : MonoBehaviour
     {
 
         if (Draw) {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireCube(this.transform.position, FireRange);
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireCube(this.transform.position, FireRange + new Vector3(0.6f, 0.6f, 0.6f));
         }
     }
 

@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class SpawnManager : Stage
 {
-    // Siongletone example
-    public static SpawnManager instance = null;
-
     private GameObject monsterSpawn;
+
     public List<GameObject> monsterPrefab = new List<GameObject>();
 
     private GameObject monsterClone;
@@ -18,15 +16,12 @@ public class SpawnManager : Stage
 
     private bool cheack;
 
+    public GameObject win;
+
+    public int monsterNum;
+
     private void Awake()
     {
-        if (instance == null) {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
-        } else {
-            Destroy(gameObject);
-        }
-
         nowStage = 0;
 
         cheack = true;
@@ -34,6 +29,11 @@ public class SpawnManager : Stage
 
     private void Start()
     {
+
+        if (win.activeSelf) {
+            win.SetActive(false);
+        }
+
         stageMonsterSpawn = new List<List<Vector3>> { 
             new List<Vector3> {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(9, -2, 0)} 
         };
@@ -41,6 +41,11 @@ public class SpawnManager : Stage
 
     private void Update()
     {
+
+        if (monsterNum == 0 && GameObject.Find("Tower").GetComponent<Tower>().towerHp >= 0) {
+            win.SetActive(true);
+        }
+
         if (nowStage > -1 && cheack) {
 
             cheack = false;
