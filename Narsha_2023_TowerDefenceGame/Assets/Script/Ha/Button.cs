@@ -6,44 +6,44 @@ using UnityEngine.SceneManagement;
 public class Button : MonoBehaviour
 {
 
-    private GameObject TXT;
+    // private GameObject TXT;
 
-    private GameObject Tower;
-    private GameObject TowerRange;
-    private Transform TowerSp;
+    // private GameObject Tower;
+    // private GameObject TowerRange;
+    // private Transform TowerSp;
 
-    void Start()
-    {
-        TXT = GameObject.Find("TowerOne");
-        TowerRange = GameObject.Find("Test_Tower_Range");
-        Tower = GameObject.Find("Test_Tower");
+    // void Start()
+    // {
+    //     TXT = GameObject.Find("TowerOne");
+    //     TowerRange = GameObject.Find("Test_Tower_Range");
+    //     Tower = GameObject.Find("Test_Tower");
 
-        TowerSp = Tower.GetComponent<Tuttey>().TowerSp;
-    }
+    //     TowerSp = Tower.GetComponent<Tuttey>().TowerSp;
+    // }
 
-    public void OnClickRestart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
+    // public void OnClickRestart()
+    // {
+    //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    // }
 
-    public void OnClickEnd()
-    {
-        SceneManager.LoadScene("DragAndDrop");
-    }
+    // public void OnClickEnd()
+    // {
+    //     SceneManager.LoadScene("DragAndDrop");
+    // }
 
-    public void OnClickaInstallation()
-    {
-        GameObject.Find("Test_Tower").GetComponent<Tuttey>().installation = false;
-        TXT.SetActive(false);
-    }
+    // public void OnClickaInstallation()
+    // {
+    //     GameObject.Find("Test_Tower").GetComponent<Tuttey>().installation = false;
+    //     TXT.SetActive(false);
+    // }
 
-    public void OnClickBack()
-    {
-        Tower.transform.position = new Vector2(-14, -8);
-        TXT.SetActive(false);
-        TowerRange.SetActive(false);
-    }
+    // public void OnClickBack()
+    // {
+    //     Tower.transform.position = new Vector2(-14, -8);
+    //     TXT.SetActive(false);
+    //     TowerRange.SetActive(false);
+    // }
 
-    //GameObject.Find("½ºÅ©¸³Æ®¸¦ Æ÷ÇÔÇÏ´Â ¿ÀºêÁ§Æ®ÀÌ¸§").GetComponent<½ºÅ©¸³Æ® ÀÌ¸§>().º¯¼ö
+    // //GameObject.Find("ï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½Ì¸ï¿½").GetComponent<ï¿½ï¿½Å©ï¿½ï¿½Æ® ï¿½Ì¸ï¿½>().ï¿½ï¿½ï¿½ï¿½
 
 }
