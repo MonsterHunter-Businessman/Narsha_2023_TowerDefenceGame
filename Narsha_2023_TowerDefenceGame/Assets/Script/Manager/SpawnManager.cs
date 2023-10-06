@@ -42,7 +42,7 @@ public class SpawnManager : Stage
     private void Update()
     {
 
-        if (monsterNum == 0 && GameObject.Find("Tower").GetComponent<Tower>().towerHp >= 0) {
+        if (monsterNum == 0 && GameObject.Find("Tower").GetComponent<Tower>().towerHp > 0) {
             win.SetActive(true);
         }
 
