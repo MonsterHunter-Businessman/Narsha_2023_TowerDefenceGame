@@ -55,7 +55,9 @@
   <ItemGroup>
     <Compile Include="Assets\Script\UI\SceneLoad.cs" />
     <Compile Include="Assets\Script\Ha\PlayerTXT.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Tower.cs" />
     <Compile Include="Assets\Script\Ha\Tuttey.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Player.cs" />
     <Compile Include="Assets\Script\Manager\BtnManager.cs" />
     <Compile Include="Assets\Script\InGame\MonsterSc\Goblin.cs" />
     <Compile Include="Assets\Script\Manager\SpawnManager.cs" />
@@ -68,10 +70,8 @@
     <Compile Include="Assets\Script\UI\JsonDataManager.cs" />
     <Compile Include="Assets\Script\Deck\deck.cs" />
     <Compile Include="Assets\Script\Manager\GameDataManager.cs" />
-    <Compile Include="Assets\Script\Deck\Cards.cs" />
-    <Compile Include="Assets\Script\InGame\PlayerSc\Player.cs" />
-    <Compile Include="Assets\Script\InGame\PlayerSc\Tower.cs" />
     <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
+    <Compile Include="Assets\Script\Deck\Cards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

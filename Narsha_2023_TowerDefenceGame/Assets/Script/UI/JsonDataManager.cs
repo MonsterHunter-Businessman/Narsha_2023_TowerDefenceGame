@@ -148,40 +148,6 @@ public class JsonDataManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        /*TextAsset textAsset = Resources.Load<TextAsset>("Json/EnemyData");
-        Debug.Log(textAsset);
-        EnemyDatas enemyData = JsonUtility.FromJson<EnemyDatas>(textAsset.text);
-        Debug.Log(enemyData.Enemy);
-
-        *//*textAsset = Resources.Load<TextAsset>("Json/ksi/CardData");
-        towerData = JsonUtility.FromJson<CardDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/ksi/SupportData");
-        supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);*/
-
-        /* textAsset = Resources.Load<TextAsset>("Json/ksi/UserInfoData");
-        userInfos = JsonUtility.FromJson<UserInfos>(textAsset.text);*//*
-
-
-        Enemy enemy = MonsterParsing("Goblin");
-
-        Debug.Log("json pasing - Enemy(Goblin) : " + enemy.tag);*/
-
-       /* TextAsset textAsset = Resources.Load<TextAsset>("Json/EnemyData");
-        enemyData = JsonUtility.FromJson<EnemyDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/CardData");
-        cardData = JsonUtility.FromJson<CardDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/SupportData");
-        supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
-        userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
-*/
-
-
     }
 
     public void Start()
@@ -198,7 +164,7 @@ public class JsonDataManager : MonoBehaviour
         textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
         userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
 
-        Goblin = MonsterParsing("goblin");
+        Goblin = MonsterParsing("goblin"); 
         Slime = MonsterParsing("slime");
         RobberGoblin = MonsterParsing("robberGoblin");
         Imp = MonsterParsing("imp");
