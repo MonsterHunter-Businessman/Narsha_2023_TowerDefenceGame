@@ -9,7 +9,7 @@
         {
             "Name": "견습기사",
             "Description": "아직은 미숙한 기사인 견습기사입니다.",
-            "Sprite": "Ch/Lancer",
+            "Sprite": "Ch/lancer",
             "Damage": 1
         },
         {
@@ -67,8 +67,8 @@
             "Damage": 1
         },
         {
-            "Name": "얘이름뭐임",
-            "Description": "뭐하는애인지몰루",
+            "Name": "반역왕",
+            "Description": "나야말로 모든 것에 반역하는 왕, 반역왕이다!",
             "Sprite": "Ch/banyukwang",
             "Damage": 1
         }

@@ -123,6 +123,17 @@ public class JsonDataManager : MonoBehaviour
     public Enemy OrkChief;
     public Enemy KingPhantom;
 
+    public Card spear;
+    public Card archer;
+    public Card shield;
+    public Card magician;
+    public Card holyknight;
+    public Card berserker;
+    public Card assassin;
+    public Card nun;
+    public Card blackmagician;
+    public Card druid;
+    public Card banyukwang;
 
 
     // Start is called before the first frame update
@@ -199,6 +210,18 @@ public class JsonDataManager : MonoBehaviour
         KingSlime = MonsterParsing("kingSlime");
         OrkChief = MonsterParsing("orkChief");
         KingPhantom = MonsterParsing("kingPhantom");
+
+        spear = CardParsing("창병");
+        archer = CardParsing("궁수");
+        shield = CardParsing("방패병");
+        magician = CardParsing("마법사");
+        holyknight = CardParsing("성기사");
+        berserker = CardParsing("광전사");
+        assassin = CardParsing("암살자");
+        nun = CardParsing("사제");
+        blackmagician = CardParsing("흑마법사");
+        druid = CardParsing("드루이드");
+        banyukwang = CardParsing("반역왕");
     }
 
     public Enemy MonsterParsing(string tag)

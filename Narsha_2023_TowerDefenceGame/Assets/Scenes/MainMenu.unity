@@ -314,13 +314,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'New TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
-    TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
-    TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
-    TextNew New TextNew TextNew '
+  m_text: "\uC624 \uD55C\uAE00 \uB41C\uB2E4 \uC2E0\uAE30\uD574\uB77C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7362125b62779094c9078a7d30846007, type: 2}
+  m_sharedMaterial: {fileID: 5072083825265841663, guid: 7362125b62779094c9078a7d30846007, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -475,8 +472,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Input New Name...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
+  m_sharedMaterial: {fileID: -324266284412167165, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -803,7 +800,7 @@ RectTransform:
   - {fileID: 1912959239}
   - {fileID: 1102767672}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -832,9 +829,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6adc99212d3f67b4c8d854f9d5d9ec43, type: 3}
   ExpText: {fileID: 126238443}
   testText:
-  - abcdefghijklmnop
-  - qrstuv
-  - wxyz
+  - "\uC544\uC9C1\uC740 \uBBF8\uC219\uD55C \uACAC\uC2B5 \uAE30\uC0AC\uC9C0\uB9CC,
+    \uADF8\uB140\uC5D0\uAC8C\uB294 \uBB34\uAD81\uBB34\uC9C4\uD55C \uC7A0\uC7AC\uB825\uC774
+    \uC7A0\uB4E4\uC5B4\uC788\uC2B5\uB2C8\uB2E4. "
+  - "\uD56D\uC0C1 \uD300\uC6D0\uB4E4\uC744 \uCE58\uC720\uD558\uACE0, \uC544\uAEF4\uC8FC\uB294
+    \uC131\uB140\uC785\uB2C8\uB2E4."
+  - "\uD3C9\uBC94\uD55C \uC6A9\uC0AC\uC785\uB2C8\uB2E4."
   playerNameInput: {fileID: 1445309175}
   spriteIndex: 0
   tmp: {fileID: 848752636}
@@ -1468,8 +1468,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
+  m_sharedMaterial: {fileID: -324266284412167165, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1648,6 +1648,157 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947c4e9926cffe14c9d24fa1ad5ea2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Goblin:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Slime:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  RobberGoblin:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Imp:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Ork:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Golem:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Spider:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Devil:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  PhantomKnight:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  KingSlime:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  OrkChief:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  KingPhantom:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  spear:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  archer:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  shield:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  magician:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  holyknight:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  berserker:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  assassin:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  nun:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  blackmagician:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  druid:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  banyukwang:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
 --- !u!4 &903060372
 Transform:
   m_ObjectHideFlags: 0
@@ -1661,7 +1812,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1925,8 +2076,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
+  m_sharedMaterial: {fileID: -324266284412167165, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2131,7 +2282,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_RestoreOriginalTextOnEscape: 1
@@ -2399,6 +2550,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474652949}
   m_CullTransparentMesh: 1
+--- !u!1 &1609367506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1609367509}
+  - component: {fileID: 1609367508}
+  - component: {fileID: 1609367507}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1609367507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609367506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1609367508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609367506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1609367509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609367506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1644480199
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,8 +2811,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
+  m_sharedMaterial: {fileID: -324266284412167165, guid: 31d7be2bcc8045146a5cdb8b4da4b14a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

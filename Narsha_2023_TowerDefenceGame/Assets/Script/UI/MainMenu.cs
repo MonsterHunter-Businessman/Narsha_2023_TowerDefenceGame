@@ -45,6 +45,7 @@ public class MainMenu : MonoBehaviour
     public void GotoDeck()
     {
         Debug.Log(JsonDataManager.instance.Slime.tag);
+        Debug.Log(JsonDataManager.instance.spear.Name);
         Debug.Log("GotoDeck");
         //SceneManager.LoadScene("Deck");
     }
