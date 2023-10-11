@@ -10,7 +10,9 @@ public enum Btntype
     Start,
     Quit,
     accept,
-    SaveInfo
+    SaveInfo,
+    ReStart,
+    Main
 }
 
 public class BtnManager : MonoBehaviour
@@ -25,7 +27,10 @@ public class BtnManager : MonoBehaviour
 
     void Start()
     {
-        cardIndex = (int)card.TowerCard;
+
+        if (card != null) {
+            cardIndex = (int)card.TowerCard;
+        }
 
         // Popup.SetActive(false);
     }
@@ -35,8 +40,7 @@ public class BtnManager : MonoBehaviour
         
         if (SceneManager.GetActiveScene().name == "StartPage" && Input.GetMouseButtonDown(0))
         {
-            Debug.Log("시작화면임ㅇㅇ");
-            SceneLoad.LoadScene("Main");
+            SceneLoad.LoadScene("MainMenu");
         }
 
        
@@ -50,23 +54,32 @@ public class BtnManager : MonoBehaviour
         switch (Currenttype)
         {
             case Btntype.Start:
-                SceneLoad.LoadScene("ReadyScene");
-                Debug.Log("넘어갑니다");
+                SceneLoad.LoadScene("OneStage");
                 break;
 
             case Btntype.Quit:
-                Debug.Log("종료합니다");
                 Application.Quit();
                 break;
 
             case Btntype.accept:
                 break;
+
             case Btntype.SaveInfo:
                 GameDataManager.Instance.PlayerInfoSave();
                 break;
 
+            case Btntype.ReStart:
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                Time.timeScale = 1f;
+                break;
+
+            case Btntype.Main:
+                SceneLoad.LoadScene("MainMenu");
+                Time.timeScale = 1f;
+                break;
+
+
             case Btntype.None:
-                Debug.Log("실행함");
                 break;
         }
     }

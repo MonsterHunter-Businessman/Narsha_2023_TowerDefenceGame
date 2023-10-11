@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-//¿Ï·áµÈ½ºÅ©¸³Æ®
+//ï¿½Ï·ï¿½È½ï¿½Å©ï¿½ï¿½Æ®
 public class SceneLoad : MonoBehaviour
 {
     public Slider progresbar;
@@ -36,7 +36,6 @@ public class SceneLoad : MonoBehaviour
             if (progresbar.value > 0.9f && operation.progress >= 0.9f)
             {
                 operation.allowSceneActivation = true;
-                Debug.Log("³Ñ¾î°£´Ù ²Ë Àâ¾Æ");
             }
         }
         Scenepath = null;
