@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
 
     public TMP_InputField playerNameInput;
 
-    private int spriteIndex = 0;
+    public int spriteIndex = 0;
 
     public TMP_Text tmp;
 
@@ -44,8 +44,7 @@ public class MainMenu : MonoBehaviour
 
     public void GotoDeck()
     {
-        Debug.Log("GotoDeck");
-        //SceneManager.LoadScene("Deck");
+        SceneManager.LoadScene("Deck");
     }
 
     public void ChangeUserName()
@@ -64,6 +63,7 @@ public class MainMenu : MonoBehaviour
     {
         playerNameInput.GetComponent<TMP_InputField>().text = "";
     }
+
 
     // Start is called before the first frame update
     void Start()

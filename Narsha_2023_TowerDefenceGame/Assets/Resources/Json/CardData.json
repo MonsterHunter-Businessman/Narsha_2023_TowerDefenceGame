@@ -1,0 +1,76 @@
+{
+    "Card": [
+        {
+            "Name": "창병",
+            "Description": "적에게 창을 던져 공격을 가하는 용병, 창병입니다.",
+            "Sprite": "Ch/spear",
+            "Damage": 1
+        },
+        {
+            "Name": "견습기사",
+            "Description": "아직은 미숙한 기사인 견습기사입니다.",
+            "Sprite": "Ch/lancer",
+            "Damage": 1
+        },
+        {
+            "Name": "궁수",
+            "Description": "활로 적을 꿰뚫는 궁수입니다.",
+            "Sprite": "Ch/archer",
+            "Damage": 1
+        },
+        {
+            "Name": "방패병",
+            "Description": "앞에서 공격을 막아주는 역할을 하는 방패병입니다.",
+            "Sprite": "Ch/shield",
+            "Damage": 1
+        },
+        {
+            "Name": "마법사",
+            "Description": "마법으로 적들을 공격하는 마법사입니다.",
+            "Sprite": "Ch/magician",
+            "Damage": 1
+        },
+        {
+            "Name": "성기사",
+            "Description": "앞에서 적들을 베어나가는 성기사입니다.",
+            "Sprite": "Ch/holyknight",
+            "Damage": 1
+        },
+        {
+            "Name": "광전사",
+            "Description": "광기에 물든 전사, 광전사입니다.",
+            "Sprite": "Ch/berserker",
+            "Damage": 1
+        },
+        {
+            "Name": "암살자",
+            "Description": "은밀하게 적들을 죽이는 암살자입니다.",
+            "Sprite": "Ch/assassin",
+            "Damage": 1
+        },
+        {
+            "Name": "사제",
+            "Description": "신성한 힘으로 아군들의 치유를 담당하는 사제입니다.",
+            "Sprite": "Ch/nun",
+            "Damage": 1
+        },
+        {
+            "Name": "흑마법사",
+            "Description": "흑마술에 손을 대버린 타락한 마법사, 흑마법사입니다.",
+            "Sprite": "Ch/blackmagician",
+            "Damage": 1
+        },
+        {
+            "Name": "드루이드",
+            "Description": "자연과 교감하고, 그 힘을 이끌어내는 드루이드입니다.",
+            "Sprite": "Ch/druid",
+            "Damage": 1
+        },
+        {
+            "Name": "반역왕",
+            "Description": "나야말로 모든 것에 반역하는 왕, 반역왕이다!",
+            "Sprite": "Ch/banyukwang",
+            "Damage": 1
+        }
+    ]
+}

@@ -35,7 +35,7 @@ public class GameDataManager : MonoBehaviour
     }
 
 
-    void Start()
+    void Awake()
     {
         if (Instance == null) {
             Instance = this;
