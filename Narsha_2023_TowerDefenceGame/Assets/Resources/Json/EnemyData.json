@@ -1,0 +1,112 @@
+{
+    "Enemy": [
+        {
+            "tag": "goblin",
+            "spped": 1,
+            "health": 35,
+            "changImg": "./Amimations/Control/Goblin",
+            "fireTime": 1,
+            "fireRange": 3,
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "slime",
+            "health": 15,
+            "spped": 1,
+            "fireTime": 1,
+            "fireRange": 3,
+            "changImg": "./Amimations/Control/Slime",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "robberGoblin",
+            "health": 25,
+            "spped": 2,
+            "fireTime": 2,
+            "fireRange": 3,
+            "changImg": "./Amimations/Control/RobberGoblin",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "imp",
+            "health": 15,
+            "fireTime": 2,
+            "fireRange": 3,
+            "speed": 2,
+            "chanImg": "./Amimations/Control/Imp",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "ork",
+            "health": 40,
+            "fireTime": 2,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/Ork",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "golem",
+            "health": 45,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/Golem",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "spider",
+            "health": 30,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/Spider",
+            "bullet": "Prefab/aprnald/SpiderAttack"
+        },
+        {
+            "tag": "devil",
+            "health": 40,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/Devil",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "phantomKnight",
+            "health": 40,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/PhantomKnight",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "kingSlime",
+            "health": 100,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/KingSlime",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "orkChief",
+            "health": 120,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/OrkChief",
+            "bullet": "Prefab/aprnald/Null"
+        },
+        {
+            "tag": "kingPhantom",
+            "health": 120,
+            "fireTime": 1,
+            "fireRange": 3,
+            "speed": 1,
+            "chanImg": "./Amimations/Control/PantomKing",
+            "bullet": "Prefab/aprnald/Null"
+        }
+    ]
+}

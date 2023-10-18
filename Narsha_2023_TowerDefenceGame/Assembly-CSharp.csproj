@@ -56,37 +56,31 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Treemeew\SceneLoad.cs" />
+    <Compile Include="Assets\Script\UI\SceneLoad.cs" />
     <Compile Include="Assets\Script\Ha\PlayerTXT.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\SpikeTrap.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\TimedAnimations.cs" />
     <Compile Include="Assets\Script\Ha\Tuttey.cs" />
     <Compile Include="Assets\Script\aprnald\Monster.cs" />
-    <Compile Include="Assets\Script\Treemeew\BtnManager.cs" />
-    <Compile Include="Assets\Script\aprnald\Stage.cs" />
-    <Compile Include="Assets\Script\aprnald\StageManager.cs" />
-    <Compile Include="Assets\Script\Ksi\MainMenu.cs" />
-    <Compile Include="Assets\Assets\Treemeew\JSON\JSONObject.cs" />
-    <Compile Include="Assets\Assets\Treemeew\JSON\VectorTemplates.cs" />
-    <Compile Include="Assets\Script\Ha\Bullet.cs" />
+    <Compile Include="Assets\Script\Manager\BtnManager.cs" />
+    <Compile Include="Assets\Script\Manager\SpawnManager.cs" />
+    <Compile Include="Assets\Script\UI\MainMenu.cs" />
+    <Compile Include="Assets\Script\InGame\AttackSc\Bullet.cs" />
     <Compile Include="Assets\Script\Ha\Button.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Script\CTL\SoundEffect1.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Script\Treemeew\Touch_to_Start.cs" />
+    <Compile Include="Assets\Script\UI\Touch_to_Start.cs" />
     <Compile Include="Assets\Script\CTL\SoundManager.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\FadeScript.cs" />
     <Compile Include="Assets\Script\CTL\Sfx.cs" />
-    <Compile Include="Assets\Script\Treemeew\deck.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\Trigger.cs" />
+    <Compile Include="Assets\Script\Deck\deck.cs" />
     <Compile Include="Assets\Script\CTL\SoundTest.cs" />
     <Compile Include="Assets\Script\CTL\SoundEffect.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\CollectableBounce.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\Door.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\Tile.cs" />
-    <Compile Include="Assets\Script\Treemeew\GameDataManager.cs" />
-    <Compile Include="Assets\Script\Treemeew\Cards.cs" />
-    <Compile Include="Assets\Assets\Ha\2D Forest\Scripts\MenuButtons.cs" />
+    <Compile Include="Assets\Script\Manager\GameDataManager.cs" />
+    <Compile Include="Assets\Script\Deck\Cards.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Player.cs" />
+    <Compile Include="Assets\Script\InGame\Stage.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
+    <Compile Include="Assets\Script\InGame\MonsterSc\Monster.cs" />
+    <Compile Include="Assets\Script\InGame\MonsterSc\Goblin.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Tower.cs" />
+    <Compile Include="Assets\Script\UI\JsonDataManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
