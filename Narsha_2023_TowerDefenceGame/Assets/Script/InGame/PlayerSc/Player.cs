@@ -27,9 +27,13 @@ public abstract class Player : MonoBehaviour
 
     public Vector3 FireRange;
 
+    Vector3 Range;
+
     public float FireTime;
 
     public Transform target;
+
+    bool attacktrue;
 
     
 
@@ -43,9 +47,11 @@ public abstract class Player : MonoBehaviour
 
         boxCollider2D = this.gameObject.GetComponent<BoxCollider2D>();
 
-        FireRange = FireRange + new Vector3(-0.6f, -0.6f, -0.6f);
+        Range = FireRange + new Vector3(-0.6f, -0.6f, -0.6f);
 
         fTickTime = FireTime;
+
+        attacktrue = false;
 
     }
 
@@ -112,6 +118,15 @@ public abstract class Player : MonoBehaviour
         boxCollider2D.size = new Vector2(5f, 8f);
 
         transform.position = targetPostion;
+
+        if (attacktrue) {
+            FireRange = Range;
+        }
+    }
+
+    private void OnMouseDown() 
+    {
+        FireRange = new Vector3(0, 0, 0);
     }
 
     public void OnDrawGizmos() 
@@ -126,8 +141,10 @@ public abstract class Player : MonoBehaviour
     public void OnTriggerEnter2D (Collider2D other) 
     {
         if (other.CompareTag("DropArea")) {
+            attacktrue = true;
             targetPostion = other.transform.position;
         } else {
+            attacktrue = false;
             targetPostion = StartPostion;
         }
     }   

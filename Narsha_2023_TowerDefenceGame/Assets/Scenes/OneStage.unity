@@ -27947,7 +27947,7 @@ SpriteRenderer:
   m_Size: {x: 5.9, y: 7.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1216255426947076863
@@ -27978,15 +27978,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RootBone: {fileID: 1677836153526769880}
-  m_BoneTransforms:
-  - {fileID: 1677836153526769880}
-  m_Bounds:
-    m_Center: {x: -153.57152, y: 11.4200325, z: -0.000000007450581}
-    m_Extent: {x: 3.1679993, y: 3.1856637, z: 0}
-  m_UseBatching: 1
-  m_AlwaysUpdate: 1
-  m_AutoRebind: 0
 --- !u!95 &1444657601010459625
 Animator:
   serializedVersion: 5
@@ -28020,18 +28011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RootBone: {fileID: 5197005731459116753}
-  m_BoneTransforms:
-  - {fileID: 5197005731459116753}
-  - {fileID: 2920610535163090844}
-  - {fileID: 7548882223688902828}
-  - {fileID: 8599685880447249750}
-  m_Bounds:
-    m_Center: {x: 5.911875, y: -2.9689052, z: 0.0000000055879354}
-    m_Extent: {x: 2.780446, y: 0.9590666, z: 0.0000000018626451}
-  m_UseBatching: 1
-  m_AlwaysUpdate: 1
-  m_AutoRebind: 0
 --- !u!4 &1564288334871566208
 Transform:
   m_ObjectHideFlags: 0
@@ -28185,21 +28164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RootBone: {fileID: 5197005731459116753}
-  m_BoneTransforms:
-  - {fileID: 6390356516686887944}
-  - {fileID: 7753813209105632749}
-  - {fileID: 165596337125366548}
-  - {fileID: 2920610535163090844}
-  - {fileID: 5197005731459116753}
-  - {fileID: 1564288334871566208}
-  - {fileID: 6936864917242185412}
-  m_Bounds:
-    m_Center: {x: 5.73806, y: -2.5507965, z: 0.0000000055879354}
-    m_Extent: {x: 2.6823645, y: 1.966235, z: 0.0000000018626456}
-  m_UseBatching: 1
-  m_AlwaysUpdate: 1
-  m_AutoRebind: 0
 --- !u!212 &3708484266998000256
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28249,7 +28213,7 @@ SpriteRenderer:
   m_Size: {x: 4.54, y: 4.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &4609506461443792591
@@ -28352,7 +28316,7 @@ SpriteRenderer:
   m_Size: {x: 5.48, y: 3.82}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &5384484704838644401
@@ -28469,7 +28433,7 @@ SpriteRenderer:
   m_Size: {x: 5.65, y: 4.94}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &6357736258281279761
@@ -28612,7 +28576,7 @@ SpriteRenderer:
   m_Size: {x: 6.03, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &7753813209105632749
@@ -28841,21 +28805,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RootBone: {fileID: 5197005731459116753}
-  m_BoneTransforms:
-  - {fileID: 6390356516686887944}
-  - {fileID: 165596337125366548}
-  - {fileID: 2920610535163090844}
-  - {fileID: 5197005731459116753}
-  - {fileID: 7753813209105632749}
-  - {fileID: 1564288334871566208}
-  - {fileID: 6936864917242185412}
-  m_Bounds:
-    m_Center: {x: 5.7848043, y: -2.531776, z: 0.0000000055879354}
-    m_Extent: {x: 2.263556, y: 2.275128, z: 0.0000000018626451}
-  m_UseBatching: 1
-  m_AlwaysUpdate: 1
-  m_AutoRebind: 0
 --- !u!114 &8945457786377030192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28868,13 +28817,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RootBone: {fileID: 7548882223688902828}
-  m_BoneTransforms:
-  - {fileID: 7548882223688902828}
-  - {fileID: 8599685880447249750}
-  m_Bounds:
-    m_Center: {x: 5.755433, y: -2.624974, z: 0.000000007450581}
-    m_Extent: {x: 2.8358874, y: 2.4520905, z: 2.220446e-16}
-  m_UseBatching: 1
-  m_AlwaysUpdate: 1
-  m_AutoRebind: 0
