@@ -46,8 +46,8 @@ public class JsonDataManager : MonoBehaviour
             this.SpritePath = SpritePath;
         }
     }
-
-    public class Support
+    [Serializable]
+    public struct Support
     {
         public string Name; //지원카드의 이름
         public string Info; //지원카드의 설명 : ex) 성을 수리해, 성이 5hp를 회복합니다.
@@ -64,8 +64,8 @@ public class JsonDataManager : MonoBehaviour
             this.ImgPath = ImgPath;
         }
     }
-
-    public class UserInfo
+    [Serializable]
+    public struct UserInfo
     {
         public string Id; //유저 id
         public string Pwd; //유저 비밀번호
@@ -135,6 +135,8 @@ public class JsonDataManager : MonoBehaviour
     public Card druid;
     public Card banyukwang;
 
+    public UserInfo user;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -188,6 +190,9 @@ public class JsonDataManager : MonoBehaviour
         blackmagician = CardParsing("흑마법사");
         druid = CardParsing("드루이드");
         banyukwang = CardParsing("반역왕");
+
+        user = UserParsing("user");
+        Debug.Log(user.Name);
     }
 
     public Enemy MonsterParsing(string tag)

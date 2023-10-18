@@ -665,7 +665,7 @@ RectTransform:
   - {fileID: 1912959239}
   - {fileID: 1102767672}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1138,6 +1138,219 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &769649512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 769649514}
+  - component: {fileID: 769649513}
+  - component: {fileID: 769649515}
+  m_Layer: 0
+  m_Name: JaonDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &769649513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769649512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947c4e9926cffe14c9d24fa1ad5ea2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Goblin:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Slime:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  RobberGoblin:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Imp:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Ork:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Golem:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Spider:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  Devil:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  PhantomKnight:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  KingSlime:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  OrkChief:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  KingPhantom:
+    tag: 
+    health: 0
+    fireTime: 0
+    fireRange: 0
+    changImg: 
+    bullet: 
+    speed: 0
+  spear:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  archer:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  shield:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  magician:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  holyknight:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  berserker:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  assassin:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  nun:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  blackmagician:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  druid:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  banyukwang:
+    Name: 
+    Description: 
+    Damage: 0
+    SpritePath: 
+  user:
+    Id: 
+    Pwd: 
+    Name: 
+    UserLV: 0
+--- !u!4 &769649514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769649512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 793.851, y: 543.0467, z: -8.319067}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769649515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769649512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3788ea375bf3d7d44b0d09aeba618650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &775843298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,201 +1695,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901914719}
   m_CullTransparentMesh: 1
---- !u!1 &903060370
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 903060372}
-  - component: {fileID: 903060371}
-  m_Layer: 0
-  m_Name: JsonDataManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &903060371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903060370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 947c4e9926cffe14c9d24fa1ad5ea2d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Goblin:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  Slime:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  RobberGoblin:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  Imp:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  Ork:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  Golem:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  Spider:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  Devil:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  PhantomKnight:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  KingSlime:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  OrkChief:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  KingPhantom:
-    tag: 
-    health: 0
-    fireTime: 0
-    fireRange: 0
-    changImg: 
-    bullet: 
-    speed: 0
-  spear:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  archer:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  shield:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  magician:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  holyknight:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  berserker:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  assassin:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  nun:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  blackmagician:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  druid:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
-  banyukwang:
-    Name: 
-    Description: 
-    Damage: 0
-    SpritePath: 
---- !u!4 &903060372
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903060370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 830.3869, y: 794.50385, z: -10.724211}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,7 +2573,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1644480199
 GameObject:

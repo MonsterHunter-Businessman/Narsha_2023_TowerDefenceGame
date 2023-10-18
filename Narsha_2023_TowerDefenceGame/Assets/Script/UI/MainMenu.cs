@@ -70,6 +70,9 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*tmp.text = GameManager.instance._userData.Name;*/
+        userLv = JsonDataManager.instance.user.UserLV;
+        UserLv.text = userLv.ToString();
     }
 
     // Update is called once per frame

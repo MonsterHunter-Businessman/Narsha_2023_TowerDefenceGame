@@ -4,7 +4,13 @@
             "Id": "user",
             "Pwd": "pwd123",
             "Name": "user123",
-            "UserLV" :  1
+            "UserLV": 1
+        },
+        {
+            "Id": "user1",
+            "Pwd": "pwd123",
+            "Name": "user1234",
+            "UserLV": 1
         }
     ]
 }

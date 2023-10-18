@@ -72,6 +72,7 @@
     <Compile Include="Assets\Script\Manager\GameDataManager.cs" />
     <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
     <Compile Include="Assets\Script\Deck\Cards.cs" />
+    <Compile Include="Assets\Script\Manager\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
