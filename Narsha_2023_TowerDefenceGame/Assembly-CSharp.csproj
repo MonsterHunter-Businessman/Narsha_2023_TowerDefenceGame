@@ -69,10 +69,10 @@
     <Compile Include="Assets\Script\UI\Touch_to_Start.cs" />
     <Compile Include="Assets\Script\UI\JsonDataManager.cs" />
     <Compile Include="Assets\Script\Deck\deck.cs" />
+    <Compile Include="Assets\Script\UI\SaveManager.cs" />
     <Compile Include="Assets\Script\Manager\GameDataManager.cs" />
     <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
     <Compile Include="Assets\Script\Deck\Cards.cs" />
-    <Compile Include="Assets\Script\Manager\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

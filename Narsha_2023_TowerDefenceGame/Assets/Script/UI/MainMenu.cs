@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 public class MainMenu : MonoBehaviour
 {
-    public int userLv = 1;
+    public int userLv = 2;
     public float userExp = 0;
     public TMP_Text UserLv;
 
@@ -26,6 +26,8 @@ public class MainMenu : MonoBehaviour
 
     public TMP_Text userName;
 
+    SaveManager save = new SaveManager();
+
 
     public void ChangeCharacter(string direction)
     {
@@ -41,6 +43,8 @@ public class MainMenu : MonoBehaviour
         }
         CharaImg.GetComponent<Image>().sprite = CharaSprite[spriteIndex];
         CharaDes.GetComponent<Image>().sprite = DesSprite[spriteIndex];
+        save.SaveUserData(tmp.text, userLv, 0, spriteIndex);
+
     }
 
     public void GotoDeck()
@@ -59,6 +63,7 @@ public class MainMenu : MonoBehaviour
         playerNameInput.GetComponent<TMP_InputField>().text = "";
         Debug.Log("새로 바뀐 이름 : " + tmp.text);
         userName.text = tmp.text;
+        save.SaveUserData(tmp.text, userLv, 0, spriteIndex);
     }
 
     public void CancleChangeName()
@@ -70,9 +75,14 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        /*tmp.text = GameManager.instance._userData.Name;*/
-        userLv = JsonDataManager.instance.user.UserLV;
+        /*tmp.text = SaveManager.instance._userData.Name;*/
+        userLv = SaveManager.instance._userData.UserLv;
         UserLv.text = userLv.ToString();
+        tmp.text = SaveManager.instance._userData.Name;
+        userName.text = tmp.text;
+        spriteIndex = SaveManager.instance._userData.charaIdx;
+        CharaImg.GetComponent<Image>().sprite = CharaSprite[spriteIndex];
+        CharaDes.GetComponent<Image>().sprite = DesSprite[spriteIndex];
     }
 
     // Update is called once per frame

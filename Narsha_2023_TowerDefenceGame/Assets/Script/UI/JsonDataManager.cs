@@ -64,24 +64,6 @@ public class JsonDataManager : MonoBehaviour
             this.ImgPath = ImgPath;
         }
     }
-    [Serializable]
-    public struct UserInfo
-    {
-        public string Id; //유저 id
-        public string Pwd; //유저 비밀번호
-        public string Name; //유저 닉네임
-        public int UserLV;
-
-
-        public UserInfo(string Id, string Pwd, string Name, int UserLV)
-        {
-            this.Id = Id;
-            this.Pwd = Pwd;
-            this.Name = Name;
-            this.UserLV = UserLV;
-        }
-
-    }
 
     public class EnemyDatas
     {
@@ -100,15 +82,9 @@ public class JsonDataManager : MonoBehaviour
         public List<Support> Support;
     }
 
-    public class UserInfos
-    {
-        public List<UserInfo> UserInfo;
-    }
-
     public EnemyDatas enemyData;
     public CardDatas cardData;
     public SupportDatas supportData;
-    public UserInfos userInfo;
 
     public Enemy Goblin;
     public Enemy Slime;
@@ -135,9 +111,6 @@ public class JsonDataManager : MonoBehaviour
     public Card druid;
     public Card banyukwang;
 
-    public UserInfo user;
-
-
     // Start is called before the first frame update
     private void Awake()
     {
@@ -163,9 +136,6 @@ public class JsonDataManager : MonoBehaviour
         textAsset = Resources.Load<TextAsset>("Json/SupportData");
         supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);
 
-        textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
-        userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
-
         Goblin = MonsterParsing("goblin"); 
         Slime = MonsterParsing("slime");
         RobberGoblin = MonsterParsing("robberGoblin");
@@ -190,9 +160,6 @@ public class JsonDataManager : MonoBehaviour
         blackmagician = CardParsing("흑마법사");
         druid = CardParsing("드루이드");
         banyukwang = CardParsing("반역왕");
-
-        user = UserParsing("user");
-        Debug.Log(user.Name);
     }
 
     public Enemy MonsterParsing(string tag)
@@ -235,19 +202,5 @@ public class JsonDataManager : MonoBehaviour
             }
         }
         return support1;
-    }
-    public UserInfo UserParsing(string id)
-    {
-        UserInfo user1 = new UserInfo("", "", "", 0);
-        foreach (UserInfo user in userInfo.UserInfo)
-        {
-
-            if (user.Id == id)
-            {
-                user1 = user;
-                break;
-            }
-        }
-        return user1;
     }
 }
