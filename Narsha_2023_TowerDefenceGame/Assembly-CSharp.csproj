@@ -60,9 +60,6 @@
      <Compile Include="Assets\Script\Manager\GameDataManager.cs" />
      <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
      <Compile Include="Assets\Script\Deck\Cards.cs" />
-     <Compile Include="Assets\Script\CTL\CameraController.cs" />
-     <Compile Include="Assets\Script\CTL\CameraShake.cs" />
-     <Compile Include="Assets\Script\CTL\CameraManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

@@ -20,11 +20,23 @@ public class SpawnManager : Stage
 
     public int monsterNum;
 
+
+    // public int numIterations;
+    // public List<int> monsterSpawnNum = new List<int>();
+    // public List<float> monsterSpawnDelay = new List<float>();
+    // public List<int> monsterType = new List<int>();
+    // public List<int> monsterSpawnTrans = new List<int>();
+    // public List<float> monsterMove = new List<float>();
+    // public bool egg;
+    // public int count;
+
     private void Awake()
     {
         nowStage = 0;
 
         cheack = true;
+        
+        count = 0;
     }
 
     private void Start()
@@ -60,26 +72,33 @@ public class SpawnManager : Stage
     private IEnumerator SpawnMonster()
     {
 
-        if (nowStage == 0) {
+        yield return new WaitForSeconds(3f);
+        // if (egg) {
+        //     for (int i = 0; i < numIterations; i++) {
+        //         for (int j = 0; j < monsterSpawnNum[i]; j++) {
+        //             MonsterSpawn(monsterSpawnTrans[count], monsterType[count], monsterMove[count]);
+        //             yield return new WaitForSeconds(monsterSpawnDelay[count++]);
+        //         }
+        //         yield return new WaitForSeconds(3f);
+        //     }
+        // } else {
+            if (nowStage == 0) {
 
-            yield return new WaitForSeconds(3f);
+                MonsterSpawn(1, 0, 12);
 
-            MonsterSpawn(1, 0, 12);
+                yield return new WaitForSeconds(1f);
 
-            yield return new WaitForSeconds(1f);
+                MonsterSpawn(0, 0, 12);
 
-            MonsterSpawn(0, 0, 12);
+                yield return new WaitForSeconds(1f);
 
-            yield return new WaitForSeconds(1f);
+                MonsterSpawn(2, 0, 12);
+ 
+                yield return new WaitForSeconds(1f);
 
-            MonsterSpawn(2, 0, 12);
-
-            yield return new WaitForSeconds(1f);
-
-            MonsterSpawn(2, 0, 12);
-
-
-        }
+                MonsterSpawn(2, 0, 12);
+            }
+        //}
     }
 
 /// <summary>
