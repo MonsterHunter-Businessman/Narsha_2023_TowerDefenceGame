@@ -90,8 +90,6 @@ public abstract class Monster : Stage
         return (Distance / Speed) * 10;
     }
 
-
-
     public void OnDrawGizmos() 
     {
         Gizmos.color = red;
