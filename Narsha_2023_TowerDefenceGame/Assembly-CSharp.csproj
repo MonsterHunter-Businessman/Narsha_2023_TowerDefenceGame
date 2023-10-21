@@ -58,28 +58,31 @@
   <ItemGroup>
     <Compile Include="Assets\Script\UI\SceneLoad.cs" />
     <Compile Include="Assets\Script\Ha\PlayerTXT.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Tower.cs" />
     <Compile Include="Assets\Script\Ha\Tuttey.cs" />
+    <Compile Include="Assets\Script\InGame\PlayerSc\Player.cs" />
+    <Compile Include="Assets\Script\CTL\CameraShake.cs" />
     <Compile Include="Assets\Script\Manager\BtnManager.cs" />
+    <Compile Include="Assets\Script\InGame\MonsterSc\Goblin.cs" />
     <Compile Include="Assets\Script\Manager\SpawnManager.cs" />
     <Compile Include="Assets\Script\UI\MainMenu.cs" />
+    <Compile Include="Assets\Script\InGame\MonsterSc\Monster.cs" />
+    <Compile Include="Assets\Script\InGame\Stage.cs" />
     <Compile Include="Assets\Script\InGame\AttackSc\Bullet.cs" />
     <Compile Include="Assets\Script\Ha\Button.cs" />
     <Compile Include="Assets\Script\CTL\SoundEffect1.cs" />
     <Compile Include="Assets\Script\UI\Touch_to_Start.cs" />
     <Compile Include="Assets\Script\CTL\SoundManager.cs" />
+    <Compile Include="Assets\Script\UI\JsonDataManager.cs" />
     <Compile Include="Assets\Script\CTL\Sfx.cs" />
     <Compile Include="Assets\Script\Deck\deck.cs" />
     <Compile Include="Assets\Script\CTL\SoundTest.cs" />
     <Compile Include="Assets\Script\CTL\SoundEffect.cs" />
     <Compile Include="Assets\Script\Manager\GameDataManager.cs" />
-    <Compile Include="Assets\Script\Deck\Cards.cs" />
-    <Compile Include="Assets\Script\InGame\PlayerSc\Player.cs" />
-    <Compile Include="Assets\Script\InGame\Stage.cs" />
     <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
-    <Compile Include="Assets\Script\InGame\MonsterSc\Monster.cs" />
-    <Compile Include="Assets\Script\InGame\MonsterSc\Goblin.cs" />
-    <Compile Include="Assets\Script\InGame\PlayerSc\Tower.cs" />
-    <Compile Include="Assets\Script\UI\JsonDataManager.cs" />
+    <Compile Include="Assets\Script\Deck\Cards.cs" />
+    <Compile Include="Assets\Script\CTL\CameraManager.cs" />
+    <Compile Include="Assets\Script\CTL\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -813,8 +816,14 @@
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
