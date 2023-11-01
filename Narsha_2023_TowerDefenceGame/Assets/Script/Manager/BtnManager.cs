@@ -12,7 +12,8 @@ public enum Btntype
     accept,
     SaveInfo,
     ReStart,
-    Main
+    Main,
+    NextStage
 }
 
 public class BtnManager : MonoBehaviour
@@ -76,6 +77,12 @@ public class BtnManager : MonoBehaviour
             case Btntype.Main:
                 SceneLoad.LoadScene("MainMenu");
                 Time.timeScale = 1f;
+                break;
+            case Btntype.NextStage:
+                if (SceneManager.GetActiveScene().buildIndex + 1 < SceneManager.sceneCountInBuildSettings) {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                } else
+                    GameObject.Find("Canvas").transform.GetChild(2).gameObject.SetActive(true);
                 break;
 
 
