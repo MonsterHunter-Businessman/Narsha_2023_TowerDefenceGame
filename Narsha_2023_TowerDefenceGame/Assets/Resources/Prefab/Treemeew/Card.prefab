@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 977066976796093021}
   - component: {fileID: 977066976796092962}
   - component: {fileID: 977066976796092963}
+  - component: {fileID: 6007820321295221008}
   - component: {fileID: 977066976796093020}
   - component: {fileID: 8817358691391399097}
   - component: {fileID: 8817358691391399101}
@@ -84,6 +85,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6007820321295221008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977066976796093022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2b37a6d602eea4a996891cf23cfc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: 
+  cardDescription: 
+  cardSprite: 
+  cardDamage: 0
+  cardIndex: 0
 --- !u!114 &977066976796093020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,13 +114,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49db46d1247ae934aaa28e5be37fc6f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CardIndex: 1
-  Cardname: {fileID: 977066977746830755}
-  CardDescriptionTxt: {fileID: 0}
+  cardIndex: 0
+  cardname: {fileID: 977066977417349363}
+  cardDescriptionTxt: {fileID: 977066977746830755}
   TowerCard: 0
-  CardNametxt: 
-  CardInfo: 
-  CardImage: {fileID: 6654286105067675417}
+  cardDmg: 0
+  cardNametxt: 
+  cardInfo: 
+  cardImage: {fileID: 6654286105067675417}
+  cardSprite: 
 --- !u!225 &8817358691391399097
 CanvasGroup:
   m_ObjectHideFlags: 0

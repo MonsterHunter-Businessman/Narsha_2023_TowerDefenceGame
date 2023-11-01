@@ -19,27 +19,23 @@ public class BtnManager : MonoBehaviour
     public GameObject Panel;*/
     public Btntype Currenttype;
     public Cards card;
-
-
+    private DeckManager deckManager;
     private int cardIndex;
 
-    void Start()
+    private void Awake()
     {
-        cardIndex = (int)card.TowerCard;
-
-        // Popup.SetActive(false);
+        deckManager = FindObjectOfType<DeckManager>();
     }
 
-    void Update()
+void Update()
     {
-        
         if (SceneManager.GetActiveScene().name == "StartPage" && Input.GetMouseButtonDown(0))
         {
             Debug.Log("시작화면임ㅇㅇ");
-            SceneLoad.LoadScene("Main");
-        }
+            SceneLoad.LoadScene("MainMenu");
+        }    
 
-       
+    
     }
 
     public void OnBtnClick()
@@ -60,6 +56,8 @@ public class BtnManager : MonoBehaviour
                 break;
 
             case Btntype.accept:
+ 
+                SceneLoad.LoadScene("InGame"); 
                 break;
             case Btntype.SaveInfo:
                 GameDataManager.Instance.PlayerInfoSave();

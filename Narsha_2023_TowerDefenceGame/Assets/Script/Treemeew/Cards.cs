@@ -17,14 +17,16 @@ public enum TowerCards
 
 public class Cards : MonoBehaviour
 {
-    public int CardIndex;
-    public TextMeshProUGUI Cardname;
-    public TextMeshProUGUI CardDescriptionTxt;
+    public int cardIndex;
+    public TextMeshProUGUI cardname;
+    public TextMeshProUGUI cardDescriptionTxt;
     public TowerCards TowerCard;
-    public static int CardDmg;
-    public string CardNametxt;
-    public string CardInfo;
-    public GameObject CardImage;
+    public int cardDmg;
+    public string cardNametxt;
+    public string cardInfo;
+    public GameObject cardImage;
+    public string cardSprite;
+
 
     private void Start()
     {
@@ -34,12 +36,12 @@ public class Cards : MonoBehaviour
     void Update()
     {    
         mercenaryType();
-        Cardname.text = CardNametxt;
-        CardDescriptionTxt.text = CardInfo;
+        cardname.text = cardNametxt;
+        cardDescriptionTxt.text = cardInfo;
     }
     public void mercenaryType()
     {
-        switch (CardIndex)
+        switch (cardIndex)
         {
             case 0:
                 TowerCard = TowerCards.none;
@@ -56,6 +58,9 @@ public class Cards : MonoBehaviour
             case 4:
                 TowerCard = TowerCards.berserker;
                 break;
+            case 5:
+                TowerCard = TowerCards.darkmagician;
+                break;
             default:
                 TowerCard = TowerCards.none;
                 break;
@@ -63,27 +68,39 @@ public class Cards : MonoBehaviour
         switch (TowerCard)
         {
             case TowerCards.nun:
-                CardNametxt = "사제";
-                CardInfo = " 10초마다 아군의 체력을 5회복 합니다.적을 단일 공격합니다.";
-                CardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("Img/Treemeew/nun");
-                CardDmg = 7;
+                cardNametxt = "사제";
+                cardInfo = " 10초마다 아군의 체력을 5회복 합니다.적을 단일 공격합니다.";
+                cardSprite = "Img/Treemeew/nun";
+                cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
+                cardDmg = 7;
                 break;
             case TowerCards.assassin:
-                CardNametxt = "암살자";
-                CardInfo = " 상대에게 공격을 받지 않습니다.적을 단일 공격합니다";
-                CardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("Img/Treemeew/assassin");
-                CardDmg = 15;
+                cardNametxt = "암살자";
+                cardInfo = " 상대에게 공격을 받지 않습니다.적을 단일 공격합니다";
+                cardSprite = "Img/Treemeew/assassin";
+                cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
+                cardDmg = 15;
                 break;
             case TowerCards.spear:
-                CardNametxt = "창병";
-                CardInfo = "상대의 어그로를 우선으로 먹습니다.적을 단일 공격합니다.";
-                CardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("Img/Treemeew/spear");
-                CardDmg = 10;
+                cardNametxt = "창병";
+                cardInfo = "상대의 어그로를 우선으로 먹습니다.적을 단일 공격합니다.";
+                cardSprite = "Img/Treemeew/spear";
+                cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
+                cardDmg = 10;
                 break;
             case TowerCards.berserker:
-                CardNametxt = "광전사";
-                CardInfo = "상대의 어그로를 우선으로 먹습니다.적을 단일 공격합니다.";
-                CardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>("Img/Treemeew/berserker");
+                cardNametxt = "광전사";
+                cardInfo = "상대의 어그로를 우선으로 먹습니다.적을 단일 공격합니다.";
+                cardSprite = "Img/Treemeew/berserker";
+                cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
+                cardDmg = 20;
+                break;
+            case TowerCards.darkmagician:
+                cardNametxt = "흑마법사";
+                cardInfo = "공격한 칸 4칸내에 있는 적에게 광역 피해를 입힙니다.";
+                cardSprite = "Img/Treemeew/darkmagician";
+                cardImage.GetComponent <Image>().sprite = Resources.Load<Sprite>(cardSprite);
+                cardDmg = 20;
                 break;
         }
   
