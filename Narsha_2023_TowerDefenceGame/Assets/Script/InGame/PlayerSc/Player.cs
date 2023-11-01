@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public abstract class Player : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public abstract class Player : MonoBehaviour
 
 
     public float Hp;
+    public float MaxHp;
 
     public float Deamge;
 
@@ -34,6 +36,13 @@ public abstract class Player : MonoBehaviour
     public Transform target;
 
     bool attacktrue;
+    
+    public GameObject HpBar;
+    public Slider slider;
+
+    public GameObject clone;
+
+    public GameObject partical;
 
     
 
@@ -47,11 +56,17 @@ public abstract class Player : MonoBehaviour
 
         boxCollider2D = this.gameObject.GetComponent<BoxCollider2D>();
 
-        Range = FireRange + new Vector3(-0.6f, -0.6f, -0.6f);
+        Range = FireRange;
 
         fTickTime = FireTime;
 
         attacktrue = false;
+        
+        MaxHp = Hp;
+        clone = Instantiate(HpBar, gameObject.transform);
+        slider = clone.transform.Find("Slider").GetComponent<Slider>();
+
+        Range = Range -= new Vector3(0.4f, 0.4f, 0.4f);
 
     }
 
@@ -65,6 +80,9 @@ public abstract class Player : MonoBehaviour
         }
 
         mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        
+        slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + new Vector3(-0.18f, 0.6f, 0f));
+        slider.value = Hp / MaxHp;
     }
 
     public void SearchMonster() 
@@ -85,6 +103,9 @@ public abstract class Player : MonoBehaviour
             if (fTickTime >= FireTime) {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
+                GameObject particalClone = Instantiate(partical);
+                particalClone.transform.position = target.position;
+                Destroy(particalClone, 1f);
                 Attack();
                 fTickTime = 0f;
             } else {
@@ -101,7 +122,7 @@ public abstract class Player : MonoBehaviour
 
         Draw = true;
 
-        boxCollider2D.offset = new Vector2(0.2f, 0f);
+        boxCollider2D.offset = new Vector2(2.5f, 0f);
 
         boxCollider2D.size = new Vector2(5f, 5f);
 
@@ -111,9 +132,9 @@ public abstract class Player : MonoBehaviour
     public void OnMouseUp() 
     {
 
-        Draw = false;
+        //Draw = false;
 
-        boxCollider2D.offset = new Vector2(0.2f, 0f);
+        boxCollider2D.offset = new Vector2(2.5f, 0f);
 
         boxCollider2D.size = new Vector2(5f, 8f);
 
@@ -134,7 +155,7 @@ public abstract class Player : MonoBehaviour
 
         if (Draw) {
             Gizmos.color = Color.green;
-            Gizmos.DrawWireCube(this.transform.position, FireRange + new Vector3(0.6f, 0.6f, 0.6f));
+            Gizmos.DrawWireCube(this.transform.position, FireRange + new Vector3(1.4f, 1.4f, 1.4f));
         }
     }
 

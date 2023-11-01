@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 3570876764192910009}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6b36b7e40d3fe8040b4965f13624ee43, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1894bf62ee3e3034f8ac4fcb503b5e0e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -108,7 +108,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &8451748456311767031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,10 +124,15 @@ MonoBehaviour:
   Distance: 0
   MonsterType: 0
   Speed: 10
-  Hp: 30
+  Hp: 20
+  MaxHp: 0
   FireTime: 3
   Deamge: 5
-  FireRange: {x: 3, y: 3, z: 3}
+  FireRange: {x: 2, y: 2, z: 2}
+  HpBar: {fileID: 8393150499848936678, guid: bd92c6cb8e5672943ad51508182efd88, type: 3}
+  slider: {fileID: 0}
+  clone: {fileID: 0}
+  partical: {fileID: 7232536954460675491, guid: 53c67f72f2baf3b47bd9a34a816ba5dc, type: 3}
 --- !u!50 &7489922091122609952
 Rigidbody2D:
   serializedVersion: 4
