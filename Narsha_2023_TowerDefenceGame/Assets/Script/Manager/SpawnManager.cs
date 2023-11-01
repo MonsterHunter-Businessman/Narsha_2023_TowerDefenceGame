@@ -36,7 +36,7 @@ public class SpawnManager : Stage
 
         cheack = true;
         
-        count = 0;
+        //count = 0;
     }
 
     private void Start()

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 263930016424682481}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.8731968, y: 22.591196, z: -0.11896853}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1479006935677319445}
@@ -223,25 +223,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2539965253642816728, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
+      propertyPath: m_Name
+      value: GK_Flame2
+      objectReference: {fileID: 0}
     - target: {fileID: 1121400436552774755, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
       propertyPath: m_SortingOrder
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1497736125007250814, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: -0.00036597252
+      value: -0.00036144257
       objectReference: {fileID: 0}
     - target: {fileID: 1497736125007250814, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 0.00452137
+      value: 0.0045204163
       objectReference: {fileID: 0}
     - target: {fileID: 1497736125007250814, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 2.784557
+      value: 2.7845557
       objectReference: {fileID: 0}
     - target: {fileID: 1497736125007250814, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.3204813
+      value: 3.3204803
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 29f32e59fe103f242889d10ad6323b56, type: 3}
@@ -305,6 +309,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5004872333531247619, guid: 5b475295c9f199c45ac0873649c87590, type: 3}
+      propertyPath: m_Name
+      value: GK_Body
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 5b475295c9f199c45ac0873649c87590, type: 3}
 --- !u!4 &1479006935677319445 stripped
@@ -367,21 +375,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5440382799158085247, guid: ac0d5bb82e501074790ade88364309d1, type: 3}
+      propertyPath: m_Name
+      value: GK_Flame
+      objectReference: {fileID: 0}
     - target: {fileID: -3587366304939374319, guid: ac0d5bb82e501074790ade88364309d1, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: 0.0057957172
+      value: 0.00001001358
       objectReference: {fileID: 0}
     - target: {fileID: -3587366304939374319, guid: ac0d5bb82e501074790ade88364309d1, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 0.016518831
+      value: 0.010139704
       objectReference: {fileID: 0}
     - target: {fileID: -3587366304939374319, guid: ac0d5bb82e501074790ade88364309d1, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 2.5357747
+      value: 2.52999
       objectReference: {fileID: 0}
     - target: {fileID: -3587366304939374319, guid: ac0d5bb82e501074790ade88364309d1, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.4434805
+      value: 3.4498594
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 4843985084834002234, guid: ac0d5bb82e501074790ade88364309d1, type: 3}
@@ -447,23 +459,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7386059133816313640, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_Bounds.m_Center.x
-      value: 0.00042581558
+      value: -0.0023665428
       objectReference: {fileID: 0}
     - target: {fileID: -7386059133816313640, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_Bounds.m_Center.y
-      value: 0.043738365
+      value: 0.07644248
       objectReference: {fileID: 0}
     - target: {fileID: -7386059133816313640, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_Bounds.m_Extent.x
-      value: 2.8145695
+      value: 2.8173666
       objectReference: {fileID: 0}
     - target: {fileID: -7386059133816313640, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_Bounds.m_Extent.y
-      value: 3.481258
+      value: 3.513961
+      objectReference: {fileID: 0}
+    - target: {fileID: -4057857040744413417, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
+      propertyPath: m_Name
+      value: GK_Flame3
       objectReference: {fileID: 0}
     - target: {fileID: 311580695235782034, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.4960473
+      value: -0.82571775
       objectReference: {fileID: 0}
     - target: {fileID: 311580695235782034, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_LocalRotation.x
@@ -475,11 +491,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 311580695235782034, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.8682955
+      value: 0.56408364
       objectReference: {fileID: 0}
     - target: {fileID: 311580695235782034, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -599.478
+      value: -428.677
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 4843985084834002234, guid: af61890de2ed6a744a8ee3bf3bbc8d27, type: 3}
@@ -542,6 +558,10 @@ PrefabInstance:
     - target: {fileID: -7552582706839291426, guid: 7d931e50d895b17439913860767605d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3793751715908022393, guid: 7d931e50d895b17439913860767605d3, type: 3}
+      propertyPath: m_Name
+      value: GK_Arm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 7d931e50d895b17439913860767605d3, type: 3}

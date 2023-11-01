@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5132324377486895373}
   - component: {fileID: 8996747355653093067}
   m_Layer: 0
-  m_Name: "\uC77C\uB7EC\uC2A4\uD2B819 \uBCF5\uC0AC 5"
+  m_Name: Sleg4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,8 +102,8 @@ MonoBehaviour:
   - {fileID: 388972452371025124}
   - {fileID: 7602117711047905521}
   m_Bounds:
-    m_Center: {x: 0.0060999393, y: 0.00470829, z: 0}
-    m_Extent: {x: 1.1438998, y: 2.1897101, z: 0}
+    m_Center: {x: 0.84664714, y: -1.1193697, z: 0}
+    m_Extent: {x: 1.9840631, y: 1.0827978, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 5633281909964346370}
   - component: {fileID: 4539969713952334672}
   m_Layer: 0
-  m_Name: "\uC77C\uB7EC\uC2A4\uD2B819 \uBCF5\uC0AC 2"
+  m_Name: Sleg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -210,8 +210,8 @@ MonoBehaviour:
   - {fileID: 294930477297632288}
   - {fileID: 3535732492130398400}
   m_Bounds:
-    m_Center: {x: 0.0050059557, y: 0.0014410019, z: 0}
-    m_Extent: {x: 0.724995, y: 2.2885194, z: 0}
+    m_Center: {x: 0.6503588, y: 0.4334551, z: 0}
+    m_Extent: {x: 1.1757102, y: 1.8459657, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 6136020659796788258}
   - component: {fileID: 9001351605822983427}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 3"
+  m_Name: SLleg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -381,8 +381,8 @@ MonoBehaviour:
   - {fileID: 7863481669443222806}
   - {fileID: 4397973219712012795}
   m_Bounds:
-    m_Center: {x: 0.00007593632, y: 0.004990816, z: 0}
-    m_Extent: {x: 1.8748851, y: 1.4099898, z: 0}
+    m_Center: {x: 0.811936, y: -1.1581476, z: 0}
+    m_Extent: {x: 0.99789095, y: 2.0501742, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 6246520303641913095}
   - component: {fileID: 875790898888778645}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 4"
+  m_Name: SLleg3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -551,8 +551,8 @@ MonoBehaviour:
   - {fileID: 6659577925548609638}
   - {fileID: 8929268046180459089}
   m_Bounds:
-    m_Center: {x: 0.0065193176, y: 0.016735435, z: 0}
-    m_Extent: {x: 2.0482306, y: 1.0632555, z: 0}
+    m_Center: {x: 0.8536931, y: -0.71783817, z: 0}
+    m_Extent: {x: 1.2064941, y: 1.6892396, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 6114738159985105167}
   - component: {fileID: 5732742831065501652}
   m_Layer: 0
-  m_Name: "\uC77C\uB7EC\uC2A4\uD2B819 \uBCF5\uC0AC 3"
+  m_Name: Sleg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -658,8 +658,8 @@ MonoBehaviour:
   - {fileID: 508480863291508952}
   - {fileID: 3674056356168977811}
   m_Bounds:
-    m_Center: {x: 0.00008606911, y: 0.0039765835, z: 0}
-    m_Extent: {x: 1.489835, y: 2.0110245, z: 0}
+    m_Center: {x: 0.13145089, y: 0.6507971, z: 0}
+    m_Extent: {x: 1.678427, y: 1.871573, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 4875286565629411316}
   - component: {fileID: 6528074790632209227}
   m_Layer: 0
-  m_Name: "\uC77C\uB7EC\uC2A4\uD2B819 \uBCF5\uC0AC"
+  m_Name: Shead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,8 +864,8 @@ MonoBehaviour:
   - {fileID: 6180681585802194368}
   - {fileID: 8438140867079793597}
   m_Bounds:
-    m_Center: {x: 0.004990101, y: 0.013369322, z: 0}
-    m_Extent: {x: 2.43999, y: 2.32631, z: 0}
+    m_Center: {x: 0.03663683, y: 0.09350157, z: 0}
+    m_Extent: {x: 2.407143, y: 2.2518141, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 1302464381228840359}
   - component: {fileID: 1345872723533731422}
   m_Layer: 0
-  m_Name: "\uC77C\uB7EC\uC2A4\uD2B819 \uBCF5\uC0AC 4"
+  m_Name: Sleg3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1002,8 +1002,8 @@ MonoBehaviour:
   - {fileID: 8677490065884793017}
   - {fileID: 8415392743396880722}
   m_Bounds:
-    m_Center: {x: 0.0000022649765, y: -0.005944729, z: 0}
-    m_Extent: {x: 1.9500012, y: 2.1140146, z: 0}
+    m_Center: {x: -0.111433744, y: 0.64431787, z: 0}
+    m_Extent: {x: 1.5720487, y: 2.1464274, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1019,7 +1019,7 @@ GameObject:
   - component: {fileID: 814305169294291188}
   - component: {fileID: 6772148551014980639}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 2"
+  m_Name: SLleg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1109,8 +1109,8 @@ MonoBehaviour:
   - {fileID: 3352345826012310251}
   - {fileID: 929130609344817723}
   m_Bounds:
-    m_Center: {x: 0.00502038, y: 0.016499877, z: 0}
-    m_Extent: {x: 1.4849598, y: 1.8614407, z: 0}
+    m_Center: {x: 0.23417485, y: -0.5869212, z: 0}
+    m_Extent: {x: 1.6189597, y: 1.5145953, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -1286,7 +1286,7 @@ GameObject:
   - component: {fileID: 1429348124714553232}
   - component: {fileID: 7332254840761064166}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 1"
+  m_Name: Sbody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1385,8 +1385,8 @@ MonoBehaviour:
   - {fileID: 6659577925548609638}
   - {fileID: 4397973219712012795}
   m_Bounds:
-    m_Center: {x: 0.00001001358, y: -0.0018258095, z: 0}
-    m_Extent: {x: 3.2999897, y: 3.5468946, z: 0}
+    m_Center: {x: 0.00047397614, y: -0.12938929, z: 0}
+    m_Extent: {x: 3.299526, y: 3.674458, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0

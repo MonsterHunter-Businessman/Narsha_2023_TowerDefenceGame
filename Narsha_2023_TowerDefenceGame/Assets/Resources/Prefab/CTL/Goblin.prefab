@@ -250,7 +250,7 @@ Animator:
   m_GameObject: {fileID: 802480969259497972}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6b36b7e40d3fe8040b4965f13624ee43, type: 2}
+  m_Controller: {fileID: 9100000, guid: edd00cb8eb4dd5342a0b937164805227, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3474326306346687711}
   m_Bounds:
-    m_Center: {x: 0.039394975, y: -1.8922079, z: 0.0000000037252903}
+    m_Center: {x: 0.03939593, y: -1.8922079, z: 0.0000000037252903}
     m_Extent: {x: 1.5325253, y: 1.6082354, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -686,8 +686,8 @@ MonoBehaviour:
   - {fileID: 3474326307668592591}
   - {fileID: 1219125371737686450}
   m_Bounds:
-    m_Center: {x: 0.05466491, y: -1.889377, z: 0.0000000037252903}
-    m_Extent: {x: 0.608225, y: 1.4488546, z: 1.110223e-16}
+    m_Center: {x: 0.054667532, y: -1.889377, z: 0.0000000037252903}
+    m_Extent: {x: 0.60822475, y: 1.4488546, z: 1.110223e-16}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -792,7 +792,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4831225403968550409}
   m_Bounds:
-    m_Center: {x: 0.041240692, y: -1.7899965, z: 0}
+    m_Center: {x: 0.04123926, y: -1.7899965, z: 0}
     m_Extent: {x: 1.3948002, y: 1.205185, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

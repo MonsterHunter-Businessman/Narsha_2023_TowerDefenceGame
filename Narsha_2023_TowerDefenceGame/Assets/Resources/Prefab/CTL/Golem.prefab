@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4337529514687861111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.16, y: -8.61, z: -0.23664176}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.02}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4866731384455623915}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 4866731383606194387}
   - component: {fileID: 4866731383606194380}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 1"
+  m_Name: Golem_Sprite_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4866731385049264581}
   m_Bounds:
-    m_Center: {x: -0.003958702, y: -0.06135273, z: 0}
-    m_Extent: {x: 10.848586, y: 9.703738, z: 0}
+    m_Center: {x: -0.0039577484, y: -0.061348915, z: 0}
+    m_Extent: {x: 10.848587, y: 9.703739, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 4866731384377659485}
   - component: {fileID: 4866731384377659486}
   m_Layer: 0
-  m_Name: 2
+  m_Name: Golem_Sprite_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4866731384414091425}
   m_Bounds:
-    m_Center: {x: 0.0006790161, y: 0.0032243729, z: 0}
+    m_Center: {x: 0.0006799698, y: 0.0032253265, z: 0}
     m_Extent: {x: 4.7241993, y: 9.111779, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 4866731384605627713}
   - component: {fileID: 4866731384605627714}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC 2"
+  m_Name: Golem_Sprite_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -753,8 +753,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4866731385321626833}
   m_Bounds:
-    m_Center: {x: 0.000008106232, y: -0.0017950535, z: 0}
-    m_Extent: {x: 4.15499, y: 3.5831754, z: 0}
+    m_Center: {x: 0.0000104904175, y: -0.0017950535, z: 0}
+    m_Extent: {x: 4.154991, y: 3.583176, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -770,7 +770,7 @@ GameObject:
   - component: {fileID: 4866731384956858104}
   - component: {fileID: 4866731384956858105}
   m_Layer: 0
-  m_Name: "\uB808\uC774\uC5B4 1 \uBCF5\uC0AC"
+  m_Name: Golem_Sprite_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -859,8 +859,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4866731385160407331}
   m_Bounds:
-    m_Center: {x: 0.004602909, y: -0.0045092106, z: 0}
-    m_Extent: {x: 4.750395, y: 3.31456, z: 0}
+    m_Center: {x: 0.004609108, y: -0.0045101643, z: 0}
+    m_Extent: {x: 4.750396, y: 3.3145604, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -907,7 +907,7 @@ GameObject:
   - component: {fileID: 4866731385145634748}
   - component: {fileID: 4866731385145634749}
   m_Layer: 0
-  m_Name: "\uC77C\uB7EC\uC2A4\uD2B818 \uBCF5\uC0AC"
+  m_Name: Golem_Sprite_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4866731383605570710}
   m_Bounds:
-    m_Center: {x: 0.0006799698, y: 0.0032186508, z: 0}
+    m_Center: {x: 0.0006837845, y: 0.0032186508, z: 0}
     m_Extent: {x: 4.7242002, y: 9.111781, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
