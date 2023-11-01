@@ -8,7 +8,6 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float deamge;
 
     public float speed;
-    
 
 
     private void FixedUpdate() 

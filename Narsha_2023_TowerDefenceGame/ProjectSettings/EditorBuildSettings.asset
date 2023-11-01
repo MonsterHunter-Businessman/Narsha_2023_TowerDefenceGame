@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StartPage.unity
     guid: 94d5df2b477173a47b3f4a1259ac6a08
   - enabled: 1
-    path: Assets/Scenes/OneStage.unity
-    guid: dc51b1179f2bae44982aa499d9d14e2f
-  - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 545e3d14a78a21a46aeede97254fc5ec
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 91b7bbc6dcfc5414796f9cab7c98caa2
+  - enabled: 1
+    path: Assets/Scenes/OneStage.unity
+    guid: dc51b1179f2bae44982aa499d9d14e2f
+  - enabled: 1
+    path: Assets/Scenes/TwoStage.unity
+    guid: 1eeca7ca568f23448a077435721d5d63
   m_configObjects: {}

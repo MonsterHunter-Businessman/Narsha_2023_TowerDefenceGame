@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using System;
+using UnityEngine.UI;
 
 public abstract class Monster : Stage
 {
@@ -14,13 +15,14 @@ public abstract class Monster : Stage
 
     [HideInInspector] public float Distance;
 
-
+    Animator animator;
 
     public int MonsterType;
     
     public float Speed;
 
     public float Hp;
+    public float MaxHp;
 
     public float FireTime;
 
@@ -28,9 +30,23 @@ public abstract class Monster : Stage
 
     public Vector3 FireRange;
 
+    public GameObject HpBar;
+    public Slider slider;
+
+    public GameObject clone;
+
+    public GameObject partical;
+    public GameObject monsterAnimation;
+
     public void Start() 
     {
         fTickTime = FireTime;
+        MaxHp = Hp;
+        clone = Instantiate(HpBar, gameObject.transform);
+        slider = clone.transform.Find("Slider").GetComponent<Slider>();
+        animator = monsterAnimation.GetComponent<Animator>();
+        
+        FireRange = FireRange -= new Vector3(0.4f, 0.4f, 0.4f);
     }
 
     public void Move(Vector3[] Path)
@@ -41,11 +57,13 @@ public abstract class Monster : Stage
 
     public void FixedUpdate() 
     {
-
         if (Hp <= 0) {
             GameObject.Find("GameManager").GetComponent<SpawnManager>().monsterNum -= 1;
             Destroy(this.gameObject);
         }
+
+        slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + new Vector3(0, 0.8f, 0f));
+        slider.value = Hp / MaxHp;
 
         SearchPlayer();
     }
@@ -58,7 +76,7 @@ public abstract class Monster : Stage
         }
     }
 
-    public void SearchPlayer()
+    private void SearchPlayer()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
         float closeDistance = Mathf.Infinity;
@@ -74,7 +92,11 @@ public abstract class Monster : Stage
 
         if (nearbyObject != null && closeDistance <= FireRange.x) {
             if (fTickTime >= FireTime) {
+                animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
+                GameObject particalClone = Instantiate(partical);
+                particalClone.transform.position = target.position;
+                Destroy(particalClone, 5f);
                 Attack();
                 fTickTime = 0f;
             } else {
@@ -90,11 +112,9 @@ public abstract class Monster : Stage
         return (Distance / Speed) * 10;
     }
 
-
-
     public void OnDrawGizmos() 
     {
         Gizmos.color = red;
-        Gizmos.DrawWireCube(this.transform.position, FireRange);
+        Gizmos.DrawWireCube(this.transform.position, FireRange + new Vector3(1.4f, 1.4f, 1.4f));
     }
 }

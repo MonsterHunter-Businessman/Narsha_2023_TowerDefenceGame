@@ -46,8 +46,8 @@ public class JsonDataManager : MonoBehaviour
             this.SpritePath = SpritePath;
         }
     }
-
-    public class Support
+    [Serializable]
+    public struct Support
     {
         public string Name; //지원카드의 이름
         public string Info; //지원카드의 설명 : ex) 성을 수리해, 성이 5hp를 회복합니다.
@@ -63,24 +63,6 @@ public class JsonDataManager : MonoBehaviour
             this.Att = Att;
             this.ImgPath = ImgPath;
         }
-    }
-
-    public class UserInfo
-    {
-        public string Id; //유저 id
-        public string Pwd; //유저 비밀번호
-        public string Name; //유저 닉네임
-        public int UserLV;
-
-
-        public UserInfo(string Id, string Pwd, string Name, int UserLV)
-        {
-            this.Id = Id;
-            this.Pwd = Pwd;
-            this.Name = Name;
-            this.UserLV = UserLV;
-        }
-
     }
 
     public class EnemyDatas
@@ -100,15 +82,9 @@ public class JsonDataManager : MonoBehaviour
         public List<Support> Support;
     }
 
-    public class UserInfos
-    {
-        public List<UserInfo> UserInfo;
-    }
-
     public EnemyDatas enemyData;
     public CardDatas cardData;
     public SupportDatas supportData;
-    public UserInfos userInfo;
 
     public Enemy Goblin;
     public Enemy Slime;
@@ -135,7 +111,6 @@ public class JsonDataManager : MonoBehaviour
     public Card druid;
     public Card banyukwang;
 
-
     // Start is called before the first frame update
     private void Awake()
     {
@@ -148,40 +123,6 @@ public class JsonDataManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        /*TextAsset textAsset = Resources.Load<TextAsset>("Json/EnemyData");
-        Debug.Log(textAsset);
-        EnemyDatas enemyData = JsonUtility.FromJson<EnemyDatas>(textAsset.text);
-        Debug.Log(enemyData.Enemy);
-
-        *//*textAsset = Resources.Load<TextAsset>("Json/ksi/CardData");
-        towerData = JsonUtility.FromJson<CardDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/ksi/SupportData");
-        supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);*/
-
-        /* textAsset = Resources.Load<TextAsset>("Json/ksi/UserInfoData");
-        userInfos = JsonUtility.FromJson<UserInfos>(textAsset.text);*//*
-
-
-        Enemy enemy = MonsterParsing("Goblin");
-
-        Debug.Log("json pasing - Enemy(Goblin) : " + enemy.tag);*/
-
-       /* TextAsset textAsset = Resources.Load<TextAsset>("Json/EnemyData");
-        enemyData = JsonUtility.FromJson<EnemyDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/CardData");
-        cardData = JsonUtility.FromJson<CardDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/SupportData");
-        supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);
-
-        textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
-        userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
-*/
-
-
     }
 
     public void Start()
@@ -195,10 +136,7 @@ public class JsonDataManager : MonoBehaviour
         textAsset = Resources.Load<TextAsset>("Json/SupportData");
         supportData = JsonUtility.FromJson<SupportDatas>(textAsset.text);
 
-        textAsset = Resources.Load<TextAsset>("Json/UserInfoData");
-        userInfo = JsonUtility.FromJson<UserInfos>(textAsset.text);
-
-        Goblin = MonsterParsing("goblin");
+        Goblin = MonsterParsing("goblin"); 
         Slime = MonsterParsing("slime");
         RobberGoblin = MonsterParsing("robberGoblin");
         Imp = MonsterParsing("imp");
@@ -264,19 +202,5 @@ public class JsonDataManager : MonoBehaviour
             }
         }
         return support1;
-    }
-    public UserInfo UserParsing(string id)
-    {
-        UserInfo user1 = new UserInfo("", "", "", 0);
-        foreach (UserInfo user in userInfo.UserInfo)
-        {
-
-            if (user.Id == id)
-            {
-                user1 = user;
-                break;
-            }
-        }
-        return user1;
     }
 }

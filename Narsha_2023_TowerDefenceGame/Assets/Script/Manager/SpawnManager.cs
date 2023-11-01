@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnManager : Stage
 {
@@ -20,9 +21,25 @@ public class SpawnManager : Stage
 
     public int monsterNum;
 
+
+    // public int numIterations;
+    // public List<int> monsterSpawnNum = new List<int>();
+    // public List<float> monsterSpawnDelay = new List<float>();
+    // public List<int> monsterType = new List<int>();
+    // public List<int> monsterSpawnTrans = new List<int>();
+    // public List<float> monsterMove = new List<float>();
+    // public bool egg;
+    // public int count;
+
     private void Awake()
     {
-        nowStage = 0;
+        nowStage = SceneManager.GetActiveScene().buildIndex - 3;
+
+        if (nowStage == 0) {
+            monsterNum = 23;
+        } else if (nowStage == 1) {
+            monsterNum = 3;
+        }
 
         cheack = true;
     }
@@ -30,19 +47,19 @@ public class SpawnManager : Stage
     private void Start()
     {
 
-        if (win.activeSelf) {
+        if (win.activeSelf) 
             win.SetActive(false);
-        }
 
         stageMonsterSpawn = new List<List<Vector3>> { 
-            new List<Vector3> {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(9, -2, 0)} 
+            new List<Vector3> {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(9, -2, 0)},
+            new List<Vector3> {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(5, -2, 0)}
         };
     }
 
     private void Update()
     {
 
-        if (monsterNum == 0 && GameObject.Find("Tower").GetComponent<Tower>().towerHp > 0) {
+        if (monsterNum == 0 && GameObject.Find("Map/Tower").GetComponent<Tower>().towerHp > 0) {
             win.SetActive(true);
         }
 
@@ -60,11 +77,30 @@ public class SpawnManager : Stage
     private IEnumerator SpawnMonster()
     {
 
+        yield return new WaitForSeconds(3f);
+        
         if (nowStage == 0) {
+            MonsterSpawn(0, 0, 12);
+
+            yield return new WaitForSeconds(2f);
+
+            MonsterSpawn(2, 0, 12);
 
             yield return new WaitForSeconds(3f);
 
             MonsterSpawn(1, 0, 12);
+
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(1, 0, 12);
+
+            yield return new WaitForSeconds(8f);
+            
+            MonsterSpawn(0, 0, 12);
+
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(0, 0, 12);
 
             yield return new WaitForSeconds(1f);
 
@@ -73,13 +109,90 @@ public class SpawnManager : Stage
             yield return new WaitForSeconds(1f);
 
             MonsterSpawn(2, 0, 12);
-
+            
             yield return new WaitForSeconds(1f);
 
             MonsterSpawn(2, 0, 12);
 
+            yield return new WaitForSeconds(1f);
 
+            MonsterSpawn(2, 0, 12);
+            
+            yield return new WaitForSeconds(5f);
+
+            MonsterSpawn(1, 1, 12);
+
+            yield return new WaitForSeconds(2f);
+
+            MonsterSpawn(1, 1, 12);
+            
+            yield return new WaitForSeconds(5f);
+
+            MonsterSpawn(0, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(0, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(2, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(2, 0, 12);
+            
+            
+            yield return new WaitForSeconds(10f);
+
+            MonsterSpawn(1, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(1, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(1, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(1, 0, 12);
+            
+            yield return new WaitForSeconds(1f);
+
+            MonsterSpawn(1, 0, 12);
+
+            yield return new WaitForSeconds(10f);
+
+            MonsterSpawn(1, 1, 12);
+            
+            yield return new WaitForSeconds(2f);
+
+            MonsterSpawn(1, 1, 12);
+
+
+
+
+
+
+
+
+
+
+
+        } else if (nowStage == 1) {
+            MonsterSpawn(0, 0, 17);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(1, 0, 14);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(2, 0, 8);
         }
+        //}
     }
 
 /// <summary>
