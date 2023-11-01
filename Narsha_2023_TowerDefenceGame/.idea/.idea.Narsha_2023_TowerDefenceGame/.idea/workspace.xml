@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd79b589-6b7e-44c5-973b-a1af59b1b3fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/26a969ca-2029-45f0-be00-a3e033329a87.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/55a2062c-97cc-45ad-8d34-7634a79ba2c2.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/6a5ca194-e387-4f7c-8ae5-5cdaa9d510a3.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/741e8925-11ac-4bc1-ad6f-bd18b3b7ffbf.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/95428e60-47fe-4da1-be7a-a9b17c963f77.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/bc0642bd-7c71-4496-b68a-bd61031d7778.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/c2f861ad-855b-4766-abb2-9170ba191712.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/c55b2e01-64fb-435e-a8b0-f78eea1bdd5a.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/e989c89a-2033-433f-8a6c-a0cee9a72d78.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/FileContentIndex/read.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Narsha_2023_TowerDefenceGame/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameObject (1).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameObject (1).controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/standing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/standing.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/MainCharacter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Goblin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Goblin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Goblin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Goblin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/golem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PreF/golem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Goblin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Goblin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Monster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/Stage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/BtnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/BtnManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Maplestory Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Maplestory Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Maplestory Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Maplestory Light SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Narsha_2023_TowerDefenceGame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Narsha_2023_TowerDefenceGame.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +100,7 @@
       <workItem from="1698580811427" duration="4840000" />
       <workItem from="1698674847622" duration="2122000" />
       <workItem from="1698825374414" duration="5000" />
-      <workItem from="1698825404858" duration="4968000" />
+      <workItem from="1698825404858" duration="5870000" />
     </task>
     <servers />
   </component>
