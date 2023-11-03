@@ -38,7 +38,7 @@ public class SpawnManager : Stage
         if (nowStage == 0) {
             monsterNum = 23;
         } else if (nowStage == 1) {
-            monsterNum = 3;
+            monsterNum = 18;
         }
 
         cheack = true;
@@ -80,6 +80,7 @@ public class SpawnManager : Stage
         yield return new WaitForSeconds(3f);
         
         if (nowStage == 0) {
+            //12
             MonsterSpawn(0, 0, 12);
 
             yield return new WaitForSeconds(2f);
@@ -170,27 +171,87 @@ public class SpawnManager : Stage
             yield return new WaitForSeconds(2f);
 
             MonsterSpawn(1, 1, 12);
-
-
-
-
-
-
-
-
-
-
+            
 
         } else if (nowStage == 1) {
+            // 17, 14, 8
             MonsterSpawn(0, 0, 17);
 
             yield return new WaitForSeconds(1f);
             
+            MonsterSpawn(0, 0, 17);
+
+            yield return new WaitForSeconds(2f);
+            
+            MonsterSpawn(2, 0, 8);
+            
+            yield return new WaitForSeconds(1f);
+            
+            
+            MonsterSpawn(0, 0, 17);
+            
+            yield return new WaitForSeconds(1f);
+            
             MonsterSpawn(1, 0, 14);
 
+            yield return new WaitForSeconds(5f);
+            
+            MonsterSpawn(2, 1, 8);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(2, 1, 8);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(2, 1, 8);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(2, 1, 8);
+
+            yield return new WaitForSeconds(3f);
+            
+            
+            MonsterSpawn(0, 0, 17);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(1, 0, 14);
+            
             yield return new WaitForSeconds(1f);
             
             MonsterSpawn(2, 0, 8);
+
+
+            yield return new WaitForSeconds(5f);
+            
+            MonsterSpawn(1, 0, 14);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(1, 0, 14);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(1, 0, 14);
+
+
+
+            yield return new WaitForSeconds(4f);
+            
+            MonsterSpawn(0, 1, 17);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 17);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(2, 1, 8);
+        } else if (nowStage == 2)
+        {
+            
         }
         //}
     }
@@ -208,6 +269,8 @@ public class SpawnManager : Stage
         monsterClone = Instantiate(monsterPrefab[monsterType]);
 
         monsterClone.transform.position = monsterSpawn.transform.position;
+
+        monsterClone.GetComponentInChildren<Animation>().parent = monsterClone;
 
         monsterClone.GetComponent<Monster>().Distance = street;
 

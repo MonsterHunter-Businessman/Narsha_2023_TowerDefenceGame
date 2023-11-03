@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spider : Monster
+{
+    public GameObject bullet;
+
+    public GameObject firePint;
+    
+    protected override void Attack()
+    {
+        GameObject clone = Instantiate(bullet, firePint.transform);
+        clone.GetComponent<Bullet>().target = target;
+    }
+
+    protected override void AttackEnd()
+    {
+        fTickTime = 0f;
+    }
+}

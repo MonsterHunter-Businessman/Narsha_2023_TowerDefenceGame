@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Golem : Monster
+public class GostKnight : Monster
 {
-    
     public GameObject partical;
     protected override void Attack() 
     {

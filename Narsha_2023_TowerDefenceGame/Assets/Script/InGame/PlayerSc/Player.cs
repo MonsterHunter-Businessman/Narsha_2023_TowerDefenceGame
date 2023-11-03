@@ -6,6 +6,8 @@ public abstract class Player : MonoBehaviour
 {
     protected abstract void Attack();
 
+    protected abstract void AttackEnd();
+
     Animator animator;
 
     private Vector2 StartPostion;
@@ -18,7 +20,7 @@ public abstract class Player : MonoBehaviour
 
     private bool Draw;
 
-    private float fTickTime;
+    public float fTickTime;
     
 
 
@@ -39,10 +41,7 @@ public abstract class Player : MonoBehaviour
     
     public GameObject HpBar;
     public Slider slider;
-
     public GameObject clone;
-
-    public GameObject partical;
 
     
 
@@ -70,7 +69,7 @@ public abstract class Player : MonoBehaviour
 
     }
 
-    public void FixedUpdate() 
+    public void Update() 
     {
 
         SearchMonster();
@@ -103,11 +102,6 @@ public abstract class Player : MonoBehaviour
             if (fTickTime >= FireTime) {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
-                GameObject particalClone = Instantiate(partical);
-                particalClone.transform.position = target.position;
-                Destroy(particalClone, 1f);
-                Attack();
-                fTickTime = 0f;
             } else {
                 fTickTime += Time.fixedDeltaTime;
             }

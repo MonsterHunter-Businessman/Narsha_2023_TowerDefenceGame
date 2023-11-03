@@ -5,200 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd79b589-6b7e-44c5-973b-a1af59b1b3fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameObject (1).controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameObject (1).controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameObject 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameObject 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GKnight.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GKnight.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GameObject (2) 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GameObject (2) 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GameObject 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GameObject 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GameObject.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/GameObject.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/Goblin.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/Goblin.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/MainCharacter.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/MainCharacter.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/Spider.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/Spider.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/Wizard.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/Wizard.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/dd 1 (1).controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/dd 1 (1).controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/dd 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/dd 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/dd 2.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/dd 2.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/golem.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/golem.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/image 10.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/image 10.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/image 11.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/image 11.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/sajae.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/sajae.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/일러스트19.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/Control/일러스트19.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/GKattack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/GKattack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/GKmove.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/GKmove.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/Goblin 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/Goblin 1.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/Goblin.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/Goblin.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/KakaoTalk_20230830_191720571.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/KakaoTalk_20230830_191720571.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/WizardAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/WizardAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/WizardStanding.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/WizardStanding.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/attackmotion1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/attackmotion1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/fly.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/fly.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/gAttacking.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/gAttacking.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/gMoving.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/gMoving.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/golemCeremony.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/golemCeremony.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/golemWalking.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/golemWalking.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/golemattack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/golemattack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/juljidongmul.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/juljidongmul.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/juljidongmulAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/juljidongmulAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/sajae.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/sajae.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/sajaeHEal.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/sajaeHEal.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/standing.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/CTL/anim/standing.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Goblin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Goblin.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Goblin.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Goblin.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Treemeew.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Treemeew/Loading.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Treemeew/Loading.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Treemeew/loading.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Treemeew/loading.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/standing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/standing.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/GK.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/GK.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/GameObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/GameObject.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/GameObject.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/GameObject.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Goblin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Goblin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Golem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Golem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Golem.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Golem.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/MainCharacter.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/MainCharacter.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Spider.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/CTL/Spider.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/GameObject.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/GameObject.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Goblin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Goblin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/GoblinAttack.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/GoblinAttack.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/MonsterGoblin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/MonsterGoblin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/MonsterGolem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/MonsterGolem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/220230830_163512434.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/220230830_163512434.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CTL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CTL/AnimTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CTL/AnimTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CTL/dd.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CTL/dd.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fireball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Fireball.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight2.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight2.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight3.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight3.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight4.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight4.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight5psb.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight5psb.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight6psb.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GKnight6psb.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KakaoTalk_20230830_191720571.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KakaoTalk_20230830_191720571.psb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/MainCharacter.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Spider.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Spider.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/attackmotion1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/attackmotion1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/gMoving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/gMoving.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemWalking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemWalking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemattack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemattack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/juljidongmulAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/juljidongmulAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGoblin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGoblin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGolem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGolem.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/1.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/1.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/2.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/2.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/3.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/3.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/4.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/4.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/5.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/5.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/GameObject.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/GameObject.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/golem.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreF/golem.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpiderWebAttack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SpiderWebAttack.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Wizard.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Wizard.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/dd 1.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/dd 1.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/dd 2.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/dd 2.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g1 1.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g1 1.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g1 2.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g1 2.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g1.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g1.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g2.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g2.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g3.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g3.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g4.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/g4.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/image 10.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/image 10.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sajae.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/sajae.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/일러스트19.psb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/일러스트19.psb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/CameraManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/CameraManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/CameraShake.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/CameraShake.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/Sfx.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/Sfx.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundEffect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundEffect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundEffect1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundEffect1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CTL/SoundTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/Cards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Deck/Cards.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/attackmotion2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/attackmotion2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/dd 1.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/dd 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/AttackSc/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/AttackSc/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Goblin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Goblin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Golem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Golem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Knight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Knight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Tower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +51,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Golem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Treemeew/Deck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Spider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746c126b0b54f3b834845974d1a9190159000/41/62f0c0d2/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746c126b0b54f3b834845974d1a9190159000/fa/5978ad49/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -222,29 +64,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;InGameSystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\abc01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\abc01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\abc01\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\abc01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\abc01\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\abc01\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Unity\sex\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\sex\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -252,7 +94,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Unity\sex\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Unity\sex\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame\Narsha_2023_TowerDefenceGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -295,6 +137,10 @@
       <workItem from="1698674847622" duration="2122000" />
       <workItem from="1698825374414" duration="5000" />
       <workItem from="1698825404858" duration="6560000" />
+      <workItem from="1698844456465" duration="61000" />
+      <workItem from="1698925375860" duration="11690000" />
+      <workItem from="1698986591188" duration="2335000" />
+      <workItem from="1698988997535" duration="2330000" />
     </task>
     <servers />
   </component>

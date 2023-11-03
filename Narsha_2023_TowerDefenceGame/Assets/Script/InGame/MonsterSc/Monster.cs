@@ -7,15 +7,16 @@ public abstract class Monster : Stage
 {
 
     protected abstract void Attack();
+    protected abstract void AttackEnd();
     private Color red = Color.red;
 
     [HideInInspector] public Transform target;
 
-    private float fTickTime= 2f;
+    public float fTickTime= 2f;
 
     [HideInInspector] public float Distance;
 
-    Animator animator;
+    public Animator animator;
 
     public int MonsterType;
     
@@ -34,8 +35,7 @@ public abstract class Monster : Stage
     public Slider slider;
 
     public GameObject clone;
-
-    public GameObject partical;
+    
     public GameObject monsterAnimation;
 
     public void Start() 
@@ -44,7 +44,7 @@ public abstract class Monster : Stage
         MaxHp = Hp;
         clone = Instantiate(HpBar, gameObject.transform);
         slider = clone.transform.Find("Slider").GetComponent<Slider>();
-        animator = monsterAnimation.GetComponent<Animator>();
+        animator = monsterAnimation.GetComponentInChildren<Animator>();
         
         FireRange = FireRange -= new Vector3(0.4f, 0.4f, 0.4f);
     }
@@ -94,10 +94,6 @@ public abstract class Monster : Stage
             if (fTickTime >= FireTime) {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
-                GameObject particalClone = Instantiate(partical);
-                particalClone.transform.position = target.position;
-                Destroy(particalClone, 5f);
-                Attack();
                 fTickTime = 0f;
             } else {
                 fTickTime += Time.fixedDeltaTime;

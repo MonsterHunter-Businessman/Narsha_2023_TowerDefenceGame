@@ -128,6 +128,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &305761229909643296
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +801,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7511679854426220366
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,6 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7724741810551823434}
   - component: {fileID: 1967972697987838774}
+  - component: {fileID: 8937190014289253129}
   m_Layer: 0
   m_Name: Goblin
   m_TagString: Untagged
@@ -928,6 +931,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8937190014289253129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7724741810551823435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2f542419a6dd84887cc47a976de5c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7841897662194532040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,7 +1164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  fTickTime: 2
   Distance: 0
+  animator: {fileID: 0}
   MonsterType: 0
   Speed: 10
   Hp: 20
@@ -1159,8 +1177,8 @@ MonoBehaviour:
   HpBar: {fileID: 8393150499848936678, guid: bd92c6cb8e5672943ad51508182efd88, type: 3}
   slider: {fileID: 0}
   clone: {fileID: 0}
-  partical: {fileID: 7232536954460675491, guid: 53c67f72f2baf3b47bd9a34a816ba5dc, type: 3}
   monsterAnimation: {fileID: 7724741810551823435}
+  partical: {fileID: 7232536954460675491, guid: 53c67f72f2baf3b47bd9a34a816ba5dc, type: 3}
 --- !u!1 &9024084487808127215
 GameObject:
   m_ObjectHideFlags: 0

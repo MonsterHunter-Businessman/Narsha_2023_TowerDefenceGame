@@ -9,6 +9,8 @@ public class Bullet : MonoBehaviour
 
     public float speed;
 
+    public GameObject effect;
+
 
     private void FixedUpdate() 
     {
@@ -16,18 +18,15 @@ public class Bullet : MonoBehaviour
         float distanceThisFrame = speed * Time.deltaTime;
 
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
-
-        if (dir.magnitude <= distanceThisFrame) {
-            Destroy(this.gameObject);
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.CompareTag("Player")) {
+        if (other.CompareTag("Player"))
+        {
+            Instantiate(effect);
             other.GetComponent<Player>().Hp -= deamge;
-        } else if (other.CompareTag("Monster")) {
-            other.GetComponent<Monster>().Hp -= deamge;
-        }
+            Destroy(this.gameObject);
+        } 
     }
 
 

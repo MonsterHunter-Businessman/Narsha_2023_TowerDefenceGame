@@ -5359,7 +5359,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 470dc8f25a5b63e408a263aeb54e3aac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -25711,6 +25711,8 @@ MonoBehaviour:
   monsterPrefab:
   - {fileID: 8733226269352301106, guid: b0dafbcc3be23f14aa42dd67c02661ba, type: 3}
   - {fileID: 7677787832932478092, guid: ed5de767b70b02b4090a892f8eb0538b, type: 3}
+  - {fileID: 4230335657206796768, guid: b6622e504e5c02745931a1a4d1382374, type: 3}
+  - {fileID: 4921611882105996235, guid: 3e0683b46ed7eed419b347a7ff71d5a9, type: 3}
   win: {fileID: 1166195758}
   monsterNum: 0
 --- !u!4 &1870794252

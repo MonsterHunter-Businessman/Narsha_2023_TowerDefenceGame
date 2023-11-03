@@ -53,7 +53,6 @@ public class DeckManager : MonoBehaviour
 
     public void LoadCardInfo()
     {
-
         cardObj = GameObject.FindWithTag("cardObj");
         //card = FindAnyObjectByType<Card>();
         //cards = FindAnyObjectByType<Cards>();

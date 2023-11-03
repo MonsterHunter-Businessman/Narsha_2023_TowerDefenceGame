@@ -10,6 +10,10 @@ TagManager:
   - Object_Smash
   - Player_Spawn
   - Monster
+  - Card
+  - Test_Arrow
+  - TestMonsterA
+  - Bullet
   layers:
   - Default
   - TransparentFX
