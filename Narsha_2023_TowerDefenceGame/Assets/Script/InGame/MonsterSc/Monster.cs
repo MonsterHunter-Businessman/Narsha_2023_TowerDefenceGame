@@ -10,7 +10,7 @@ public abstract class Monster : Stage
     protected abstract void AttackEnd();
     private Color red = Color.red;
 
-    [HideInInspector] public Transform target;
+    public Transform target;
 
     public float fTickTime= 2f;
 
@@ -22,7 +22,14 @@ public abstract class Monster : Stage
     
     public float Speed;
 
-    public float Hp;
+    private float Hp;
+
+    public float HP
+    {
+        get { return Hp; }
+        set { Hp = value; }
+    }
+    
     public float MaxHp;
 
     public float FireTime;
@@ -38,10 +45,9 @@ public abstract class Monster : Stage
     
     public GameObject monsterAnimation;
 
-    public void Start() 
+    public void Start()
     {
-        fTickTime = FireTime;
-        MaxHp = Hp;
+        HP = MaxHp;
         clone = Instantiate(HpBar, gameObject.transform);
         slider = clone.transform.Find("Slider").GetComponent<Slider>();
         animator = monsterAnimation.GetComponentInChildren<Animator>();
@@ -55,12 +61,14 @@ public abstract class Monster : Stage
             .SetEase(Ease.Linear);
     }
 
-    public void FixedUpdate() 
+    public void Update() 
     {
         if (Hp <= 0) {
             GameObject.Find("GameManager").GetComponent<SpawnManager>().monsterNum -= 1;
             Destroy(this.gameObject);
         }
+
+        fTickTime += Time.deltaTime;
 
         slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + new Vector3(0, 0.8f, 0f));
         slider.value = Hp / MaxHp;
@@ -82,26 +90,32 @@ public abstract class Monster : Stage
         float closeDistance = Mathf.Infinity;
         GameObject nearbyObject = null;
 
-        foreach (GameObject player in players) {
+        foreach (GameObject player in players)
+        {
             float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-            if (distanceToPlayer < closeDistance) {
+            if (distanceToPlayer < closeDistance)
+            {
                 closeDistance = distanceToPlayer;
                 nearbyObject = player;
             }
         }
 
-        if (nearbyObject != null && closeDistance <= FireRange.x) {
-            if (fTickTime >= FireTime) {
+        if (nearbyObject != null && closeDistance <= FireRange.x)
+        {
+            if (fTickTime >= FireTime)
+            {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
                 fTickTime = 0f;
-            } else {
-                fTickTime += Time.fixedDeltaTime;
             }
-        } else {
+        }
+        else
+        {
+            animator.SetBool("Attack", false);
             target = null;
         }
     }
+
 
     private float getDirections() 
     {

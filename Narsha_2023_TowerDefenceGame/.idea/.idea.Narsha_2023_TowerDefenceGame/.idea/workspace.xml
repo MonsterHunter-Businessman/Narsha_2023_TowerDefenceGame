@@ -6,40 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="fd79b589-6b7e-44c5-973b-a1af59b1b3fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Goblin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Goblin.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/MainCharacter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Spider.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Spider.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/attackmotion1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/attackmotion1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/gMoving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/gMoving.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemWalking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemWalking.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemattack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/golemattack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/anim/juljidongmulAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/anim/juljidongmulAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGK.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGK.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGoblin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGoblin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGolem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGolem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterSpider.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterSpider.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/AttackSc/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/AttackSc/Bullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Goblin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Goblin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Golem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Golem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/GostKnight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/GostKnight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Spider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Knight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Knight.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Tower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Sound/SoundEffect1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +122,7 @@
       <workItem from="1698925375860" duration="11690000" />
       <workItem from="1698986591188" duration="2335000" />
       <workItem from="1698988997535" duration="2330000" />
+      <workItem from="1699021899801" duration="3801000" />
     </task>
     <servers />
   </component>

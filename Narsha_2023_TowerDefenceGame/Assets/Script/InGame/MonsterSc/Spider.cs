@@ -10,8 +10,11 @@ public class Spider : Monster
     
     protected override void Attack()
     {
-        GameObject clone = Instantiate(bullet, firePint.transform);
-        clone.GetComponent<Bullet>().target = target;
+        if (target != null)
+        {
+            GameObject clone = Instantiate(bullet, firePint.transform);
+            clone.GetComponent<Bullet>().target = target;
+        }
     }
 
     protected override void AttackEnd()

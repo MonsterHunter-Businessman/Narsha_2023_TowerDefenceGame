@@ -9,10 +9,13 @@ public class Knight : Player
     
     protected override void Attack() 
     {
-        target.GetComponent<Monster>().Hp -= Deamge;
-        GameObject particalClone = Instantiate(partical);
-        particalClone.transform.position = target.position;
-        Destroy(particalClone, 1f);
+        if (target != null)
+        {
+            target.GetComponent<Monster>().HP -= Deamge;
+            GameObject particalClone = Instantiate(partical);
+            particalClone.transform.position = target.position;
+            Destroy(particalClone, 1f);
+        }
     }
 
     protected override void AttackEnd()

@@ -240,8 +240,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   MonsterType: 1
   Speed: 5
-  Hp: 20
-  MaxHp: 0
+  MaxHp: 40
   FireTime: 5
   Deamge: 10
   FireRange: {x: 2, y: 2, z: 2}

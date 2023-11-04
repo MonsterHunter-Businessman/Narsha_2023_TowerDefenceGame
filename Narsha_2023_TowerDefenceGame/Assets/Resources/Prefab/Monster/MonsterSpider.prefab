@@ -1130,8 +1130,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   MonsterType: 3
   Speed: 15
-  Hp: 25
-  MaxHp: 0
+  MaxHp: 20
   FireTime: 0
   Deamge: 0
   FireRange: {x: 2, y: 2, z: 0}

@@ -24,7 +24,7 @@ public class Bullet : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Instantiate(effect);
-            other.GetComponent<Player>().Hp -= deamge;
+            other.GetComponent<Player>().HP -= deamge;
             Destroy(this.gameObject);
         } 
     }

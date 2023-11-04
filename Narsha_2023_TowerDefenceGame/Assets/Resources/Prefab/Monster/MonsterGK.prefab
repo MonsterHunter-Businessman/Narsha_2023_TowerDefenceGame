@@ -472,8 +472,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   MonsterType: 2
   Speed: 10
-  Hp: 30
-  MaxHp: 0
+  MaxHp: 30
   FireTime: 3
   Deamge: 5
   FireRange: {x: 3, y: 3, z: 3}

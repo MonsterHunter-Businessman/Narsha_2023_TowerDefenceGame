@@ -24,7 +24,13 @@ public abstract class Player : MonoBehaviour
     
 
 
-    public float Hp;
+    private float Hp;
+    public float HP
+    {
+        get { return Hp; }
+        set { Hp = value; }
+    }
+
     public float MaxHp;
 
     public float Deamge;
@@ -45,8 +51,10 @@ public abstract class Player : MonoBehaviour
 
     
 
-    private void Start() 
+    private void Start()
     {
+        HP = MaxHp;
+        
         Draw = false;
 
         animator = this.gameObject.GetComponent<Animator>();
@@ -61,7 +69,6 @@ public abstract class Player : MonoBehaviour
 
         attacktrue = false;
         
-        MaxHp = Hp;
         clone = Instantiate(HpBar, gameObject.transform);
         slider = clone.transform.Find("Slider").GetComponent<Slider>();
 
@@ -74,9 +81,11 @@ public abstract class Player : MonoBehaviour
 
         SearchMonster();
 
-        if (Hp <= 0) {
+        if (Hp <= 0)
             Destroy(this.gameObject);
-        }
+        
+
+        fTickTime += Time.deltaTime;
 
         mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         
@@ -84,28 +93,32 @@ public abstract class Player : MonoBehaviour
         slider.value = Hp / MaxHp;
     }
 
-    public void SearchMonster() 
+    public void SearchMonster()
     {
         GameObject[] Monsters = GameObject.FindGameObjectsWithTag("Monster");
         float closeDistance = Mathf.Infinity;
         GameObject nearbyObject = null;
 
-        foreach (GameObject Monster in Monsters) {
+        foreach (GameObject Monster in Monsters)
+        {
             float distanceToPlayer = Vector2.Distance(transform.position, Monster.transform.position);
-            if (distanceToPlayer < closeDistance) {
+            if (distanceToPlayer < closeDistance)
+            {
                 closeDistance = distanceToPlayer;
                 nearbyObject = Monster;
             }
         }
 
-        if (nearbyObject != null && closeDistance <= FireRange.x) {
-            if (fTickTime >= FireTime) {
+        if (nearbyObject != null && closeDistance <= FireRange.x)
+        {
+            if (fTickTime >= FireTime)
+            {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
-            } else {
-                fTickTime += Time.fixedDeltaTime;
             }
-        } else {
+        }
+        else
+        {
             animator.SetBool("Attack", false);
             target = null;
         }
