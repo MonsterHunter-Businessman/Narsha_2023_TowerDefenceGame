@@ -10,6 +10,9 @@ TagManager:
   - Object_Smash
   - Player_Spawn
   - Monster
+  - Card
+  - Slot
+  - deckObj
   layers:
   - Default
   - TransparentFX

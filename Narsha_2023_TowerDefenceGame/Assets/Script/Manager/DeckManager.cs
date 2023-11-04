@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 using UnityEngine.SceneManagement;
 
 public class DeckManager : MonoBehaviour
@@ -12,7 +13,6 @@ public class DeckManager : MonoBehaviour
     //ethan
     public GameObject cardObj;
 
-    private bool isInitialized = false;
     [SerializeField] private CardData[] cardData;
     private void Awake()
     {
@@ -38,9 +38,6 @@ public class DeckManager : MonoBehaviour
         {
             decks[i] = new Deck();
         }
-
-        decks[card.childIndex].cardName = card.name;
-
     }
 
     private void Update()
@@ -55,8 +52,8 @@ public class DeckManager : MonoBehaviour
     {
 
         cardObj = GameObject.FindWithTag("cardObj");
-        //card = FindAnyObjectByType<Card>();
-        //cards = FindAnyObjectByType<Cards>();
+        card = FindAnyObjectByType<Card>();
+        cards = FindAnyObjectByType<Cards>();
         for (int i = 0; i < deckList.Length; i++)
         {
             if (deckList[i] == null)

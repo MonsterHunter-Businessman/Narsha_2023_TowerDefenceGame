@@ -70,35 +70,35 @@ public class Cards : MonoBehaviour
             case TowerCards.nun:
                 cardNametxt = "사제";
                 cardInfo = " 10초마다 아군의 체력을 5회복 합니다.적을 단일 공격합니다.";
-                cardSprite = "Img/Treemeew/nun";
+                cardSprite = "Img/Ch/Player/nun";
                 cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
                 cardDmg = 7;
                 break;
             case TowerCards.assassin:
                 cardNametxt = "암살자";
                 cardInfo = " 상대에게 공격을 받지 않습니다.적을 단일 공격합니다";
-                cardSprite = "Img/Treemeew/assassin";
+                cardSprite = "Img/Ch/Player/assassin";
                 cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
                 cardDmg = 15;
                 break;
             case TowerCards.spear:
                 cardNametxt = "창병";
                 cardInfo = "상대의 어그로를 우선으로 먹습니다.적을 단일 공격합니다.";
-                cardSprite = "Img/Treemeew/spear";
+                cardSprite = "Img/Ch/Player/spear";
                 cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
                 cardDmg = 10;
                 break;
             case TowerCards.berserker:
                 cardNametxt = "광전사";
                 cardInfo = "상대의 어그로를 우선으로 먹습니다.적을 단일 공격합니다.";
-                cardSprite = "Img/Treemeew/berserker";
+                cardSprite = "Img/Ch/Player/berserker";
                 cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
                 cardDmg = 20;
                 break;
             case TowerCards.darkmagician:
                 cardNametxt = "흑마법사";
                 cardInfo = "공격한 칸 4칸내에 있는 적에게 광역 피해를 입힙니다.";
-                cardSprite = "Img/Treemeew/darkmagician";
+                cardSprite = "Img/Ch/Player/darkmagician";
                 cardImage.GetComponent <Image>().sprite = Resources.Load<Sprite>(cardSprite);
                 cardDmg = 20;
                 break;
