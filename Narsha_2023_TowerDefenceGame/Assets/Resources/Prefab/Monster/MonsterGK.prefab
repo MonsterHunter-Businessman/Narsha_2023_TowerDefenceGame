@@ -448,12 +448,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!114 &4230335657206796770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
   Speed: 10
   MaxHp: 30
   FireTime: 3
-  Deamge: 5
+  Deamge: 15
   FireRange: {x: 3, y: 3, z: 3}
   HpBar: {fileID: 8393150499848936678, guid: bd92c6cb8e5672943ad51508182efd88, type: 3}
   slider: {fileID: 0}

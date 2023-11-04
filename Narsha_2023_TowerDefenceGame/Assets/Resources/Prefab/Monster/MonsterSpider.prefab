@@ -1111,7 +1111,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!114 &7536330989286583050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,11 +1129,11 @@ MonoBehaviour:
   Distance: 0
   animator: {fileID: 0}
   MonsterType: 3
-  Speed: 15
+  Speed: 13
   MaxHp: 20
   FireTime: 0
   Deamge: 0
-  FireRange: {x: 2, y: 2, z: 0}
+  FireRange: {x: 5, y: 5, z: 5}
   HpBar: {fileID: 8393150499848936678, guid: bd92c6cb8e5672943ad51508182efd88, type: 3}
   slider: {fileID: 0}
   clone: {fileID: 0}

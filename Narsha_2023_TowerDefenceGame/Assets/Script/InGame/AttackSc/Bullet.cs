@@ -1,29 +1,38 @@
+using System;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
 
-    [HideInInspector] public Transform target;
+    public Transform target;
 
     [SerializeField] private float deamge;
 
     public float speed;
 
+    private Vector3 dir;
+
     public GameObject effect;
+
+    private void Start()
+    {
+        dir = (target.position - transform.position).normalized;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+    }
 
 
     private void FixedUpdate() 
     {
-        Vector3 dir = target.position - transform.position;
-        float distanceThisFrame = speed * Time.deltaTime;
-
-        transform.Translate(dir.normalized * distanceThisFrame, Space.World);
+        dir = (target.position - transform.position).normalized;
+        transform.Translate(dir * (speed * Time.deltaTime), Space.World);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Player"))
         {
-            Instantiate(effect);
+            GameObject clone = Instantiate(effect);
+            clone.transform.position = transform.position;
             other.GetComponent<Player>().HP -= deamge;
             Destroy(this.gameObject);
         } 

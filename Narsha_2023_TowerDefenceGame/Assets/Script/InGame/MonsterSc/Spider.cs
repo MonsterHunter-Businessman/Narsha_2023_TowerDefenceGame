@@ -12,7 +12,8 @@ public class Spider : Monster
     {
         if (target != null)
         {
-            GameObject clone = Instantiate(bullet, firePint.transform);
+            GameObject clone = Instantiate(bullet);
+            clone.transform.position = firePint.transform.position;
             clone.GetComponent<Bullet>().target = target;
         }
     }
