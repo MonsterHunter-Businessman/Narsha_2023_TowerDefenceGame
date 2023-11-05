@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public int towerHp;
 
     public TextMeshProUGUI towerHpText;
-    
+
     public GameObject Lose;
 
     public static GameManager instance;
