@@ -43,7 +43,9 @@ public class SpawnManager : Stage
             monsterNum = 20;
         } else if (nowStage == 3) {
             monsterNum = 28;
-        }
+        } else if (nowStage == 4) {
+            monsterNum = 30;
+        } 
         cheack = true;
     }
 
@@ -58,7 +60,7 @@ public class SpawnManager : Stage
             new List<Vector3> {new Vector3(9, 2, 0), new Vector3(9, 0, 0), new Vector3(5, -2, 0)},
             new List<Vector3> {new Vector3(9, -3, 0), new Vector3(9, -3, 0)},
             new List<Vector3> {new Vector3(9, 2, 0),  new Vector3(9, 0, 0)},
-            new List<Vector3> {new Vector3()}
+            new List<Vector3> {new Vector3(8, 2, 0), new Vector3(8, 2, 0), new Vector3(8, 2, 0), new Vector3(8, 0, 0), new Vector3(8, 0, 0), new Vector3(8, 0, 0), new Vector3(8, -3, 0), new Vector3(8, -3, 0), new Vector3(8, -3, 0)}
         };
     }
 
@@ -466,6 +468,132 @@ public class SpawnManager : Stage
             yield return new WaitForSeconds(1f);
             
             MonsterSpawn(1, 2, 10);
+        } else if (nowStage == 4) {
+            MonsterSpawn(0, 1, 18);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 18);
+            
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 18);
+
+            yield return new WaitForSeconds(3f);
+            
+            
+            
+            MonsterSpawn(4, 3, 14);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(4, 3, 14);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(6, 0, 15);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(6, 0, 15);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(6, 0, 15);
+
+            yield return new WaitForSeconds(5f);
+            
+            
+            MonsterSpawn(7, 2, 29);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(7, 2, 29);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(7, 2, 29);
+
+            yield return new WaitForSeconds(3f);
+            
+            MonsterSpawn(3, 0, 14);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(3, 0, 14);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(3, 0, 14);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(3, 0, 14);
+
+            yield return new WaitForSeconds(10f);
+            
+            
+            
+            MonsterSpawn(6, 3, 15);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(6, 3, 15);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(5, 1, 16);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(1, 0, 16);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(1, 0, 16);
+
+            yield return new WaitForSeconds(5f);
+            
+            
+            MonsterSpawn(2, 0, 10);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(2, 0, 10);
+
+            yield return new WaitForSeconds(1f);
+            
+            
+            MonsterSpawn(8, 0, 11);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(8, 0, 11);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(8, 0, 11);
+
+            yield return new WaitForSeconds(3f);
+            
+            
+            MonsterSpawn(0, 1, 18);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 18);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 18);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 18);
+
+            yield return new WaitForSeconds(1f);
+            
+            MonsterSpawn(0, 1, 18);
         }
         
     }

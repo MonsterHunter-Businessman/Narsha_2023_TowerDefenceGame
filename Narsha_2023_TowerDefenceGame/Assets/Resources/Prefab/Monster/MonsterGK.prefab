@@ -398,7 +398,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4230335657206796768}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -0.69, y: -0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -406,7 +406,7 @@ Transform:
   - {fileID: 7117573354479394394}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!61 &4230335657206796780
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1006,6 +1006,7 @@ GameObject:
   - component: {fileID: 7117573354479394395}
   - component: {fileID: 7117573354479394388}
   - component: {fileID: 7117573354479394389}
+  - component: {fileID: 3212692279806267583}
   m_Layer: 0
   m_Name: GK
   m_TagString: Untagged
@@ -1165,6 +1166,21 @@ MonoBehaviour:
   sound: {fileID: 0}
   attack: {fileID: 0}
   run: {fileID: 7117573354479394388}
+--- !u!114 &3212692279806267583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7117573354479394390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2f542419a6dd84887cc47a976de5c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parent: {fileID: 0}
+  monsterName: 
+  scripComponent: {fileID: 0}
 --- !u!1 &7287242692483940812
 GameObject:
   m_ObjectHideFlags: 0

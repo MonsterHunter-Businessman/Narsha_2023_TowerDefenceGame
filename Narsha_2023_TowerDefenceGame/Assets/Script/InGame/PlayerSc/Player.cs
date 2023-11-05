@@ -59,7 +59,7 @@ public abstract class Player : MonoBehaviour
 
         animator = this.gameObject.GetComponent<Animator>();
 
-        StartPostion = this.gameObject.transform.position;
+        StartPostion = this.transform.position;
 
         boxCollider2D = this.gameObject.GetComponent<BoxCollider2D>();
 

@@ -6,19 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="fd79b589-6b7e-44c5-973b-a1af59b1b3fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Attack/SpiderBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Attack/SpiderBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/GKnight.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/GKnight.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGK.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGK.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterSpider.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterSpider.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/AttackSc/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/AttackSc/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Spider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Spider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Tower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Tower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ThreeStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ThreeStage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/Stage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +120,9 @@
       <workItem from="1699021899801" duration="9339000" />
       <workItem from="1699076583706" duration="3730000" />
       <workItem from="1699091369362" duration="3431000" />
+      <workItem from="1699099186612" duration="3945000" />
+      <workItem from="1699162282590" duration="3449000" />
+      <workItem from="1699174772013" duration="1160000" />
     </task>
     <servers />
   </component>
