@@ -4,39 +4,36 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace park
+public class GameManager : MonoBehaviour
 {
-    public class GameManager : MonoBehaviour
+    public int towerHp;
+
+    public TextMeshProUGUI towerHpText;
+
+    public GameObject Lose;
+
+    public static GameManager instance;
+
+    private void Awake()
     {
-        public int towerHp;
-
-        public TextMeshProUGUI towerHpText;
-
-        public GameObject Lose;
-
-        public static GameManager instance;
-
-        private void Awake()
+        if (instance == null)
         {
-            if (instance == null)
-            {
-                instance = this;
-            }
-            else
-            {
-                Destroy(this);
-            }
+            instance = this;
         }
-
-        private void Update()
+        else
         {
-            towerHpText.text = "타워 체력 : " + towerHp;
+            Destroy(this);
+        }
+    }
 
-            if (towerHp <= 0)
-            {
-                Lose.SetActive(true);
-                Time.timeScale = 0f;
-            }
+    private void Update()
+    {
+        towerHpText.text = "타워 체력 : " + towerHp;
+
+        if (towerHp <= 0)
+        {
+            Lose.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
