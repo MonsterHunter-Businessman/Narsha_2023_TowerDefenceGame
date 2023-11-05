@@ -3,27 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ItemSlot : MonoBehaviour,IDropHandler
+namespace park
 {
-    Card card;
-    Deck decK;
-    public void OnDrop(PointerEventData eventData)
+    public class ItemSlot : MonoBehaviour, IDropHandler
     {
-        Debug.Log("ondrop");
-        if( eventData.pointerDrag != null)
+        Card card;
+        Deck decK;
+        public void OnDrop(PointerEventData eventData)
         {
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+            Debug.Log("ondrop");
+            if (eventData.pointerDrag != null)
+            {
+                eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+            }
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }
     
