@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd79b589-6b7e-44c5-973b-a1af59b1b3fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/GKnight.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/GKnight.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGK.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Monster/MonsterGK.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ThreeStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ThreeStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/Stage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/Stage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/SpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/Card.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Deck/Card.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/DragAndDrop.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Deck/DragAndDrop.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/ItemSlot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Deck/ItemSlot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Golem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/MonsterSc/Spider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746c126b0b54f3b834845974d1a9190159000/41/62f0c0d2/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746c126b0b54f3b834845974d1a9190159000/fa/5978ad49/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -123,6 +118,7 @@
       <workItem from="1699099186612" duration="3945000" />
       <workItem from="1699162282590" duration="3449000" />
       <workItem from="1699174772013" duration="1160000" />
+      <workItem from="1699186828416" duration="1055000" />
     </task>
     <servers />
   </component>

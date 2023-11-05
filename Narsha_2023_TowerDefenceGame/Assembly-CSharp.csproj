@@ -44,7 +44,7 @@
      <Compile Include="Assets\Script\UI\SceneLoad.cs" />
      <Compile Include="Assets\Script\Ha\PlayerTXT.cs" />
      <Compile Include="Assets\Script\InGame\PlayerSc\Tower.cs" />
-     <Compile Include="Assets\Script\Deck\ItemSlot.cs" />
+     <Compile Include="Assets\Script\Treemeew\ItemSlot.cs" />
      <Compile Include="Assets\Script\Ha\Tuttey.cs" />
      <Compile Include="Assets\Script\InGame\PlayerSc\Player.cs" />
      <Compile Include="Assets\Script\Camera\CameraShake.cs" />
@@ -52,7 +52,7 @@
      <Compile Include="Assets\Script\InGame\MonsterSc\Goblin.cs" />
      <Compile Include="Assets\Script\Manager\SpawnManager.cs" />
      <Compile Include="Assets\Script\InGame\PlayerSc\GK.cs" />
-     <Compile Include="Assets\Script\Deck\Card.cs" />
+     <Compile Include="Assets\Script\Treemeew\Card.cs" />
      <Compile Include="Assets\Script\UI\MainMenu.cs" />
      <Compile Include="Assets\Script\InGame\MonsterSc\Monster.cs" />
      <Compile Include="Assets\Script\Camera\CameraController.cs" />
@@ -61,12 +61,13 @@
      <Compile Include="Assets\Script\InGame\AttackSc\Bullet.cs" />
      <Compile Include="Assets\Script\Ha\Button.cs" />
      <Compile Include="Assets\Script\InGame\MonsterSc\GostKnight.cs" />
+     <Compile Include="Assets\Script\Treemeew\PlayerInfo.cs" />
      <Compile Include="Assets\Script\Sound\SoundEffect1.cs" />
-     <Compile Include="Assets\Script\Manager\DeckManager.cs" />
+     <Compile Include="Assets\Script\Treemeew\DeckManager.cs" />
      <Compile Include="Assets\Script\Manager\GameManager.cs" />
      <Compile Include="Assets\Script\UI\Touch_to_Start.cs" />
      <Compile Include="Assets\Script\Manager\SoundManager.cs" />
-     <Compile Include="Assets\Script\Deck\DragAndDrop.cs" />
+     <Compile Include="Assets\Script\Treemeew\DragAndDrop.cs" />
      <Compile Include="Assets\Script\UI\JsonDataManager.cs" />
      <Compile Include="Assets\Script\Sound\Sfx.cs" />
      <Compile Include="Assets\Script\UI\SaveManager.cs" />
@@ -79,6 +80,11 @@
      <Compile Include="Assets\Script\InGame\PlayerSc\Knight.cs" />
      <Compile Include="Assets\Script\Camera\CameraManager.cs" />
      <Compile Include="Assets\Script\Deck\Cards.cs" />
+     <Compile Include="Assets\Script\Deck\Card.cs" />
+     <Compile Include="Assets\Script\Treemeew\Cards.cs" />
+     <Compile Include="Assets\Script\Deck\DragAndDrop.cs" />
+     <Compile Include="Assets\Script\Deck\ItemSlot.cs" />
+     <Compile Include="Assets\Script\Manager\DeckManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Resources\Prefab" />
      <Folder Include="Assets\Assets\Isometric Tower Defense Pack\Sprites\Landscape tiles" />
@@ -161,6 +167,7 @@
      <Folder Include="Assets\Assets\Isometric Tower Defense Pack\Sprites\Enviroument tiles\Desert biome" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Assets\RPG&amp;Fantasy Mobile GUI\buttons" />
+     <Folder Include="Assets\Script\Treemeew" />
      <Folder Include="Assets\Resources\Img" />
      <Folder Include="Assets\Resources\Animations\anim" />
      <Folder Include="Assets\Resources\Img\Ch\Monster" />
