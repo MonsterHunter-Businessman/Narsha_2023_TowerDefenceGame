@@ -68,6 +68,9 @@ public class DeckManager : MonoBehaviour
             deckList[i].cardDescription = cardData[i].cardDescription;
             deckList[i].cardSprite = cardData[i].cardSprite;
             deckList[i].cardIndex = cardData[i].cardIndex;
+            deckList[i].cardHp = cardData[i].maxHp;
+            deckList[i].fireRange = cardData[i].fireRanage;
+
         }
     }
 
@@ -78,6 +81,9 @@ public class DeckManager : MonoBehaviour
         cardData[index].cardDescription = deck.cardDescription;
         cardData[index].cardSprite = deck.cardSprite;
         cardData[index].cardIndex = deck.cardIndex;
+        cardData[index].maxHp = deck.cardHp;
+        cardData[index].fireRanage = deck.fireRange;
+        cardData[index].fireTime = deck.fireTime;
     }
 
 }
@@ -87,6 +93,9 @@ public class CardData
     public string cardName;
     public string cardDescription;
     public string cardSprite;
-    public int cardDamage;
+    public float cardDamage;
     public int cardIndex;
+    public float maxHp;
+    public Vector3 fireRanage;
+    public float fireTime;
 }

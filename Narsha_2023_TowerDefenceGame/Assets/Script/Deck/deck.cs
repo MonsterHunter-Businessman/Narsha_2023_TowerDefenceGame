@@ -6,6 +6,9 @@ public class Deck : MonoBehaviour
     public string cardName;
     public string cardDescription;
     public string cardSprite;
-    public int cardDamage;
+    public float cardDamage;
     public int cardIndex;
+    public float cardHp;
+    public Vector3 fireRange;
+    public float fireTime;
 }   

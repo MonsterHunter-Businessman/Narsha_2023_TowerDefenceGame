@@ -921,6 +921,9 @@ MonoBehaviour:
   cardSprite: 
   cardDamage: 0
   cardIndex: 0
+  cardHp: 0
+  fireRange: {x: 0, y: 0, z: 0}
+  fireTime: 0
 --- !u!114 &567202486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1154,6 +1157,9 @@ MonoBehaviour:
   cardSprite: 
   cardDamage: 0
   cardIndex: 0
+  cardHp: 0
+  fireRange: {x: 0, y: 0, z: 0}
+  fireTime: 0
 --- !u!114 &746704342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,6 +1510,9 @@ MonoBehaviour:
   cardSprite: 
   cardDamage: 0
   cardIndex: 0
+  cardHp: 0
+  fireRange: {x: 0, y: 0, z: 0}
+  fireTime: 0
 --- !u!114 &926801159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1661,6 +1670,9 @@ MonoBehaviour:
   cardSprite: 
   cardDamage: 0
   cardIndex: 0
+  cardHp: 0
+  fireRange: {x: 0, y: 0, z: 0}
+  fireTime: 0
 --- !u!114 &1341073464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1817,6 +1829,9 @@ MonoBehaviour:
   cardSprite: 
   cardDamage: 0
   cardIndex: 0
+  cardHp: 0
+  fireRange: {x: 0, y: 0, z: 0}
+  fireTime: 0
 --- !u!114 &1456557495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,26 +1956,41 @@ MonoBehaviour:
     cardSprite: 
     cardDamage: 0
     cardIndex: 0
+    maxHp: 0
+    fireRanage: {x: 0, y: 0, z: 0}
+    fireTime: 0
   - cardName: 
     cardDescription: 
     cardSprite: 
     cardDamage: 0
     cardIndex: 0
+    maxHp: 0
+    fireRanage: {x: 0, y: 0, z: 0}
+    fireTime: 0
   - cardName: 
     cardDescription: 
     cardSprite: 
     cardDamage: 0
     cardIndex: 0
+    maxHp: 0
+    fireRanage: {x: 0, y: 0, z: 0}
+    fireTime: 0
   - cardName: 
     cardDescription: 
     cardSprite: 
     cardDamage: 0
     cardIndex: 0
+    maxHp: 0
+    fireRanage: {x: 0, y: 0, z: 0}
+    fireTime: 0
   - cardName: 
     cardDescription: 
     cardSprite: 
     cardDamage: 0
     cardIndex: 0
+    maxHp: 0
+    fireRanage: {x: 0, y: 0, z: 0}
+    fireTime: 0
 --- !u!4 &1706671502
 Transform:
   m_ObjectHideFlags: 0

@@ -63,7 +63,7 @@ public class BtnManager : MonoBehaviour
                 break;
 
             case Btntype.accept:
-                SceneLoad.LoadScene("OneStage");
+                SceneLoad.LoadScene("Ingame");
                 break;
 
             case Btntype.SaveInfo:

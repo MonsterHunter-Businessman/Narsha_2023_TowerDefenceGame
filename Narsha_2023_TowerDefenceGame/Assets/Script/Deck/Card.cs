@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-    private int cardDamage;
+    private float cardDamage;
     private int cardIndex;
     private string cardName;
     private string cardDescription;
@@ -13,6 +13,20 @@ public class Card : MonoBehaviour
     private Cards cardInfo;
     Deck cardDeck;
     public int childIndex;
+    private float maxHp;
+    private float fireTime;
+    private Vector2 fireRange;
+
+    private float MaxHp
+    {
+        get { return maxHp; }
+        set { maxHp = value; }
+    }
+    private float FireTime
+    {
+        get { return fireTime; }
+        set { fireTime = value; }
+    }
     private string CardDescription
     {
         get { return cardDescription; }
@@ -28,7 +42,7 @@ public class Card : MonoBehaviour
         get { return cardName; }
         set { cardName = value; }
     }
-    private int CardDamage
+    private float CardDamage
     {
         get { return cardDamage; }
 
@@ -41,10 +55,21 @@ public class Card : MonoBehaviour
     }
  
 
-   void Start()
+   void Awake()
     {
         cardDeck = GetComponent<Deck>();
         cardInfo = GetComponent<Cards>();
+    }
+
+    private void Start()
+    {
+        cardInfo.cardDmg = DeckManager.Instance.deckList[childIndex].cardDamage;
+        cardInfo.cardSprite = DeckManager.Instance.deckList[childIndex].cardSprite;
+        cardInfo.cardNametxt = DeckManager.Instance.deckList[childIndex].cardName;
+        cardInfo.cardInfo = DeckManager.Instance.deckList[childIndex].cardDescription;
+        cardInfo.maxHp = DeckManager.Instance.deckList[childIndex].cardHp;
+        cardInfo.fireTime = DeckManager.Instance.deckList[childIndex].fireTime;
+        cardInfo.fireRange = DeckManager.Instance.deckList[childIndex ].fireRange;
     }
 
     private void Update()
@@ -71,16 +96,16 @@ public class Card : MonoBehaviour
                 slotDeck.cardDamage = cardInfo.cardDmg;
                 slotDeck.cardSprite = cardInfo.cardSprite;
                 slotDeck.cardIndex = cardInfo.cardIndex;
+                slotDeck.cardHp = cardInfo.maxHp;
+                slotDeck.fireRange = cardInfo.fireRange;
+                slotDeck.fireTime= cardInfo.fireTime;
                 Debug.Log("Card information transferred to the deck.");
             }
             childIndex = collision.gameObject.transform.GetSiblingIndex();
             DeckManager.Instance.deckList[childIndex] = slotDeck;
-            DeckManager.Instance.SaveCardData(slotDeck,childIndex);
+            DeckManager.Instance.SaveCardData(slotDeck, childIndex);
 
         }
-
-        
-
     }
 }
 

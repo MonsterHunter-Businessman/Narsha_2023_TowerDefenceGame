@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Animations;
 using UnityEngine.UI;
 using TMPro;
 
@@ -12,7 +13,10 @@ public enum TowerCards
     assassin,
     spear,
     berserker,
-    darkmagician
+    darkmagician,
+    knight,
+    wizzard,
+    archer
 }
 
 public class Cards : MonoBehaviour
@@ -21,24 +25,31 @@ public class Cards : MonoBehaviour
     public TextMeshProUGUI cardname;
     public TextMeshProUGUI cardDescriptionTxt;
     public TowerCards TowerCard;
-    public int cardDmg;
+    public float cardDmg;
     public string cardNametxt;
     public string cardInfo;
     public GameObject cardImage;
     public string cardSprite;
-
-
-    private void Start()
-    {
-
-    }
-
+    public float maxHp;
+    public float fireTime;
+    public Vector3 fireRange;
+    public Animator cardAnim;
+    public string animPath;
+    
     void Update()
     {    
         mercenaryType();
         cardname.text = cardNametxt;
         cardDescriptionTxt.text = cardInfo;
+
+        
+        /*cardNametxt = DeckManager.Instance.deckList[1].cardName;
+        cardDmg = DeckManager.Instance.deckList[1].cardDamage;
+        cardInfo = DeckManager.Instance.deckList[1].cardDescription;
+        cardSprite = DeckManager.Instance.deckList[1].cardSprite;*/
     }
+
+
     public void mercenaryType()
     {
         switch (cardIndex)
@@ -60,6 +71,15 @@ public class Cards : MonoBehaviour
                 break;
             case 5:
                 TowerCard = TowerCards.darkmagician;
+                break;
+            case 6:
+                TowerCard = TowerCards.knight;
+                break;
+            case 7:
+                TowerCard = TowerCards.wizzard;
+                break;
+            case 8:
+                TowerCard = TowerCards.archer;
                 break;
             default:
                 TowerCard = TowerCards.none;
@@ -101,6 +121,21 @@ public class Cards : MonoBehaviour
                 cardSprite = "Img/Ch/Player/darkmagician";
                 cardImage.GetComponent <Image>().sprite = Resources.Load<Sprite>(cardSprite);
                 cardDmg = 20;
+                break;
+            case TowerCards.knight:
+                cardNametxt = "기사";
+                cardInfo = "세상 평범한 기사입니다. 적을 단일 공격합니다.";
+                cardSprite = "Img/Ch/Player/Knight.png";
+                animPath = "Animations/Control/MainCharacter.controller";
+                cardImage.GetComponent<Image>().sprite = Resources.Load<Sprite>(cardSprite);
+                cardAnim.GetComponent<Animator>().runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>(animPath);
+                cardDmg = 10;
+                break;
+            case TowerCards.wizzard:
+                cardNametxt = "마법사";
+                cardInfo = "마법사이빈다.";
+                cardSprite = "";
+                animPath = "";
                 break;
         }
   
