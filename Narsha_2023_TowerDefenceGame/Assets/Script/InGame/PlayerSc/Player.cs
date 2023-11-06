@@ -71,6 +71,8 @@ public abstract class Player : MonoBehaviour
         
         clone = Instantiate(HpBar, gameObject.transform);
         slider = clone.transform.Find("Slider").GetComponent<Slider>();
+        
+        
 
         Range = Range -= new Vector3(0.4f, 0.4f, 0.4f);
 

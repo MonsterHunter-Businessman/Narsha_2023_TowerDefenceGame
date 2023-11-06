@@ -6,20 +6,48 @@
   <component name="ChangeListManager">
     <list default="true" id="fd79b589-6b7e-44c5-973b-a1af59b1b3fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Narsha_2023_TowerDefenceGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefab/Card.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefab/Card.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FiveStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FiveStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FourStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FourStage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/2D Village Tileset/Sprites/Tileset_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/2D Village Tileset/Sprites/Tileset_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/2D Village Tileset/Sprites/Tileset_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/2D Village Tileset/Sprites/Tileset_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Wizard.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Control/Wizard.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OneStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ReadyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ReadyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ReadyScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ReadyScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ThreeStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ThreeStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TwoStage.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Manager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Narsha_2023_TowerDefenceGame.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Narsha_2023_TowerDefenceGame.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/Card.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/Card.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/Cards.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/Cards.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/DragAndDrop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/DragAndDrop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/ItemSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/ItemSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/deck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Deck/deck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Knight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Knight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Manager/DeckManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/Card.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/Card.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/Cards.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/Cards.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/DeckManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/DeckManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/DragAndDrop.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/DragAndDrop.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/ItemSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/ItemSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/PlayerInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Treemeew/PlayerInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +58,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/GK.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/InGame/PlayerSc/Wizard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/PlayerSpawnManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746c126b0b54f3b834845974d1a9190159000/41/62f0c0d2/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746c126b0b54f3b834845974d1a9190159000/fa/5978ad49/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -127,6 +156,8 @@
       <workItem from="1699174772013" duration="1160000" />
       <workItem from="1699186828416" duration="1055000" />
       <workItem from="1699188382081" duration="642000" />
+      <workItem from="1699226334212" duration="168000" />
+      <workItem from="1699280979116" duration="2000" />
     </task>
     <servers />
   </component>

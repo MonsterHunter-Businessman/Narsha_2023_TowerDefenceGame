@@ -25262,6 +25262,7 @@ GameObject:
   - component: {fileID: 1870794252}
   - component: {fileID: 1870794251}
   - component: {fileID: 1870794253}
+  - component: {fileID: 1870794254}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -25318,6 +25319,18 @@ MonoBehaviour:
   towerHp: 20
   towerHpText: {fileID: 2016530076}
   Lose: {fileID: 0}
+--- !u!114 &1870794254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870794250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b41210c3749f6438d3783a3f40fc77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1897552747
 GameObject:
   m_ObjectHideFlags: 0
