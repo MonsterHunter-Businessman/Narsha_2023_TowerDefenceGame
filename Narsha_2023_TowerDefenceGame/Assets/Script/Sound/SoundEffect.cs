@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class SoundEffect : MonoBehaviour
 {
+    
+    public AudioSource sound;
 
-    public AudioSource run;
-    // Start is called before the first frame update
-    void Start()
+    public AudioClip attack;
+
+    public AudioClip run;
+    
+    void WalkSound()
     {
-        
+        if (run != null)
+        {
+            sound.clip = run;
+            sound.Play();
+        }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     void AttackSound()
     {
-        run.Play();
+        if (attack != null)
+        {
+            sound.clip = attack;
+            sound.Play();
+        }
     }
 }

@@ -6,6 +6,8 @@ public class SoundEffect1 : MonoBehaviour
 {
 
     public AudioSource run;
+
+    public AudioSource attack;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,4 +24,5 @@ public class SoundEffect1 : MonoBehaviour
     {
         run.Play();
     }
+    
 }

@@ -6,6 +6,8 @@ public abstract class Player : MonoBehaviour
 {
     protected abstract void Attack();
 
+    protected abstract void AttackEnd();
+
     Animator animator;
 
     private Vector2 StartPostion;
@@ -18,11 +20,17 @@ public abstract class Player : MonoBehaviour
 
     private bool Draw;
 
-    private float fTickTime;
+    public float fTickTime;
     
 
 
-    public float Hp;
+    private float Hp;
+    public float HP
+    {
+        get { return Hp; }
+        set { Hp = value; }
+    }
+
     public float MaxHp;
 
     public float Deamge;
@@ -39,20 +47,19 @@ public abstract class Player : MonoBehaviour
     
     public GameObject HpBar;
     public Slider slider;
-
     public GameObject clone;
-
-    public GameObject partical;
 
     
 
-    private void Start() 
+    private void Start()
     {
+        HP = MaxHp;
+        
         Draw = false;
 
         animator = this.gameObject.GetComponent<Animator>();
 
-        StartPostion = this.gameObject.transform.position;
+        StartPostion = this.transform.position;
 
         boxCollider2D = this.gameObject.GetComponent<BoxCollider2D>();
 
@@ -62,22 +69,25 @@ public abstract class Player : MonoBehaviour
 
         attacktrue = false;
         
-        MaxHp = Hp;
         clone = Instantiate(HpBar, gameObject.transform);
         slider = clone.transform.Find("Slider").GetComponent<Slider>();
+        
+        
 
         Range = Range -= new Vector3(0.4f, 0.4f, 0.4f);
 
     }
 
-    public void FixedUpdate() 
+    public void Update() 
     {
 
         SearchMonster();
 
-        if (Hp <= 0) {
+        if (Hp <= 0)
             Destroy(this.gameObject);
-        }
+        
+
+        fTickTime += Time.deltaTime;
 
         mPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         
@@ -85,33 +95,32 @@ public abstract class Player : MonoBehaviour
         slider.value = Hp / MaxHp;
     }
 
-    public void SearchMonster() 
+    public void SearchMonster()
     {
         GameObject[] Monsters = GameObject.FindGameObjectsWithTag("Monster");
         float closeDistance = Mathf.Infinity;
         GameObject nearbyObject = null;
 
-        foreach (GameObject Monster in Monsters) {
+        foreach (GameObject Monster in Monsters)
+        {
             float distanceToPlayer = Vector2.Distance(transform.position, Monster.transform.position);
-            if (distanceToPlayer < closeDistance) {
+            if (distanceToPlayer < closeDistance)
+            {
                 closeDistance = distanceToPlayer;
                 nearbyObject = Monster;
             }
         }
 
-        if (nearbyObject != null && closeDistance <= FireRange.x) {
-            if (fTickTime >= FireTime) {
+        if (nearbyObject != null && closeDistance <= FireRange.x)
+        {
+            if (fTickTime >= FireTime)
+            {
                 animator.SetBool("Attack", true);
                 target = nearbyObject.transform;
-                GameObject particalClone = Instantiate(partical);
-                particalClone.transform.position = target.position;
-                Destroy(particalClone, 1f);
-                Attack();
-                fTickTime = 0f;
-            } else {
-                fTickTime += Time.fixedDeltaTime;
             }
-        } else {
+        }
+        else
+        {
             animator.SetBool("Attack", false);
             target = null;
         }
