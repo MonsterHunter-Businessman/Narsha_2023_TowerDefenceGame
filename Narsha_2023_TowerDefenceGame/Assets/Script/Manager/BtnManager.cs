@@ -55,7 +55,7 @@ public class BtnManager : MonoBehaviour
         switch (Currenttype)
         {
             case Btntype.Start:
-                SceneLoad.LoadScene("OneStage");
+                SceneLoad.LoadScene("ReadyScene");
                 break;
 
             case Btntype.Quit:
@@ -63,6 +63,7 @@ public class BtnManager : MonoBehaviour
                 break;
 
             case Btntype.accept:
+                SceneLoad.LoadScene("Ingame");
                 break;
 
             case Btntype.SaveInfo:
@@ -91,3 +92,4 @@ public class BtnManager : MonoBehaviour
         }
     }
 }
+
